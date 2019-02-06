@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/entailment.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="src/common.js"></script>
+    <script type="text/javascript" src="src/entailment.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+
+<!--<h1 class="red_alert">UNDER CONSTRUCTION RIGHT NOW!!!</h1>-->
+<h1>Sentence Level Textual Entailment Demo</h1>
+
+<br>
+Context:
+<textarea id="InputText1"
+          placeholder="A single English sentence should be input here."></textarea>
+<br>
+Hypothesis:
+<textarea id="InputText2"
+          placeholder="Another single English sentence should be input here."></textarea>
+<br>
+<br>
+Probability that Context entails Hypothesis:
+<br>
+<textarea id="ReturnText"
+          placeholder="Probability That The Hypothesis Can Be Entailed By the Context will be here."></textarea>
+
+
+
+<button id="myButton" class="buttonload" onclick="this.disabled=true;">
+    <i class="fa" id = "myi"></i>Check For Entailment
+</button>
+
+<div id="piechart"></div>
+
+<br>
+<h3>About Textual Entailment:</h3>
+<p>Textual Entailment (|=) is defined as a directional relationship between pairs of text expression (Context and Hypothesis).</p>
+<p>We say that, Context entails Hypothesis (can be denoted by Context |= Hypothesis), or Hypothesis is entailed by Context, if the meaning of Hypothesis can be directly inferred from the meanings of Context, as would typically be interpreted by people who speaks the kind of language used in Context and Hypothesis.</p>
+<p>Example 1: "A place of sorrow, after Pope John Paul II died, became a place of celebration, as Roman Catholic faithful gathered in downtown Chicago to mark the installation of new Pope Benedict XVI." entails "Pope Benedict XVI is the new leader of the Roman Catholic Church."</p>
+<p>Example 2: "No Weapons of Mass Destruction Found in Iraq Yet." does not entail "Weapons of Mass Destruction Found in Iraq."</p>
+<p>Example 3: "Kitty is a cat." does not entail "John is riding a bike."</p>
+<br>
+
+<p class="red_alert">The input should be a single sentence.</p>
+<p>Chrome is the recommended and only tested browser.</p>
+<p>All Sentences has to be encoded in UTF-8.</p>
+<p>Please be aware: This Demo approved for use with public data only.</p>
+<p>All rights reserved.</p>
+
+</body>
+</html>

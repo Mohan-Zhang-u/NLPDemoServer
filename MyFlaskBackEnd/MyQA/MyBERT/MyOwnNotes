@@ -1,0 +1,40 @@
+As listed in the context, it is a pretraining to understand the model.
+it uses ULMFiT, the one presented in the second Research friday.
+
+Predict next sentence, to make sense of context (and the meaning of the corpus)
+
+see my_run_classifier.py. dev set is where eval is performed
+
+
+
+
+code to check in MrpcProcessor(DataProcessor), since processor = processors[task_name]()
+label_list = processor.get_labels(), so we will change it, that we dont use labels, we just directly output the result.
+
+ if FLAGS.do_eval:
+   !!!!!!!!!!!!!!!!!!!! test.tsv never used (different datafile has different path)
+ train_examples=$GLUE_DIR/MRPC/train.tsv
+ eval_examples=$GLUE_DIR/MRPC/dev.tsv
+ eval_file=tmp/mrpc_output/eval.tf_record
+ train_file=tmp/mrpc_output/train.tf_record
+ in MRPC, quality 1 means same, 0 means not?
+
+
+ eval_input_fn = file_based_input_fn_builder(
+        input_file=eval_file,
+        seq_length=FLAGS.max_seq_length(i dont care here),
+        is_training=False,
+        drop_remainder=eval_drop_remainder(false))
+
+    result = estimator.evaluate(input_fn=eval_input_fn, steps=eval_steps)
+
+ severely, read https://www.tensorflow.org/guide/estimators
+
+
+ need filed_based_convert_examples_to_features(
+        eval_examples, label_list, FLAGS.max_seq_length, tokenizer, eval_file) to convert file to tf_record file.
+
+
+
+  So, what do we need to feed in predict?
+  class_ids contains a list.

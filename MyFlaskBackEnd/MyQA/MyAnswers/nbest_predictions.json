@@ -1,0 +1,124 @@
+{
+    "what is dota 2 ?": [
+        {
+            "text": "multiplayer online battle arena",
+            "probability": 0.3640475162483843,
+            "start_logit": 8.0101318359375,
+            "end_logit": 6.962298393249512
+        },
+        {
+            "text": "multiplayer online battle arena (MOBA)",
+            "probability": 0.27668808914208065,
+            "start_logit": 8.0101318359375,
+            "end_logit": 6.6879048347473145
+        },
+        {
+            "text": "a multiplayer online battle arena",
+            "probability": 0.12360362973917982,
+            "start_logit": 6.929927349090576,
+            "end_logit": 6.962298393249512
+        },
+        {
+            "text": "a multiplayer online battle arena (MOBA)",
+            "probability": 0.0939428250355786,
+            "start_logit": 6.929927349090576,
+            "end_logit": 6.6879048347473145
+        },
+        {
+            "text": "multiplayer online battle arena (MOBA) video game",
+            "probability": 0.04461141356364679,
+            "start_logit": 8.0101318359375,
+            "end_logit": 4.863003730773926
+        },
+        {
+            "text": "a multiplayer online battle arena (MOBA) video game",
+            "probability": 0.01514673881334823,
+            "start_logit": 6.929927349090576,
+            "end_logit": 4.863003730773926
+        },
+        {
+            "text": "online battle arena",
+            "probability": 0.012235160761435597,
+            "start_logit": 4.617161273956299,
+            "end_logit": 6.962298393249512
+        },
+        {
+            "text": "battle arena",
+            "probability": 0.012119297629798588,
+            "start_logit": 4.607646465301514,
+            "end_logit": 6.962298393249512
+        },
+        {
+            "text": "multiplayer online battle arena (MOBA",
+            "probability": 0.011798004958375293,
+            "start_logit": 8.0101318359375,
+            "end_logit": 3.532944440841675
+        },
+        {
+            "text": "online battle arena (MOBA)",
+            "probability": 0.009299124703045699,
+            "start_logit": 4.617161273956299,
+            "end_logit": 6.6879048347473145
+        },
+        {
+            "text": "battle arena (MOBA)",
+            "probability": 0.009211064911222288,
+            "start_logit": 4.607646465301514,
+            "end_logit": 6.6879048347473145
+        },
+        {
+            "text": "multiplayer online battle arena (MOBA) video game developed and published by Valve Corporation. The game is a sequel to Defense of the Ancients",
+            "probability": 0.005652179649613008,
+            "start_logit": 8.0101318359375,
+            "end_logit": 2.797055244445801
+        },
+        {
+            "text": "MOBA)",
+            "probability": 0.005239552333955277,
+            "start_logit": 4.0434770584106445,
+            "end_logit": 6.6879048347473145
+        },
+        {
+            "text": "a multiplayer online battle arena (MOBA",
+            "probability": 0.004005730492447769,
+            "start_logit": 6.929927349090576,
+            "end_logit": 3.532944440841675
+        },
+        {
+            "text": "multiplayer online battle arena (MOBA) video game developed and published by Valve Corporation.",
+            "probability": 0.0038064781176916766,
+            "start_logit": 8.0101318359375,
+            "end_logit": 2.4017183780670166
+        },
+        {
+            "text": "Dota 2 is a multiplayer online battle arena",
+            "probability": 0.0020963626005276194,
+            "start_logit": 2.85305118560791,
+            "end_logit": 6.962298393249512
+        },
+        {
+            "text": "a multiplayer online battle arena (MOBA) video game developed and published by Valve Corporation. The game is a sequel to Defense of the Ancients",
+            "probability": 0.0019190624559938722,
+            "start_logit": 6.929927349090576,
+            "end_logit": 2.797055244445801
+        },
+        {
+            "text": "Dota 2 is a multiplayer online battle arena (MOBA)",
+            "probability": 0.0015933045446000467,
+            "start_logit": 2.85305118560791,
+            "end_logit": 6.6879048347473145
+        },
+        {
+            "text": "online battle arena (MOBA) video game",
+            "probability": 0.0014993312476651998,
+            "start_logit": 4.617161273956299,
+            "end_logit": 4.863003730773926
+        },
+        {
+            "text": "battle arena (MOBA) video game",
+            "probability": 0.001485133051409106,
+            "start_logit": 4.607646465301514,
+            "end_logit": 4.863003730773926
+        }
+    ]
+}

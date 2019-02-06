@@ -1,0 +1,156 @@
+
+https://www.jakowicz.com/flask-apache-wsgi/
+sudo apt-get install libapache2-mod-wsgi-py3
+  create webtool.py with app in it and under main.
+
+code /etc/hosts
+127.0.0.1 my.webtool
+  so that anything go to my.webtool will be sent to 127.0.0.1 and apache will pick up accordingly.
+
+Create webtool.wsgi:
+#!/anaconda/envs/py36server/bin/python
+import sys
+sys.path.insert(0,"/datadrive/123/ProjectsWebServer/MyFlaskBackEnd/flask-prod")
+from webtool import app as application
+  where we have a webtool.py in /var/www/flask-prod
+chmod 755 webtool.wsgi
+
+create virtual host: /etc/apache2/sites-available/my.webtool.conf
+<virtualhost *:{port}>
+    ServerName my.webtool
+
+    WSGIDaemonProcess webtool user=www-data group=www-data threads=5 home=/datadrive/123/ProjectsWebServer/MyFlaskBackEnd/flask-prod python-path=/anaconda/envs/py36server/lib/python3.6/site-packages
+    WSGIScriptAlias / /datadrive/123/ProjectsWebServer/MyFlaskBackEnd/flask-prod/webtool.wsgi
+    # WSGIPassAuthorization On
+
+    <directory /datadrive/123/ProjectsWebServer/MyFlaskBackEnd/flask-prod>
+        WSGIProcessGroup webtool
+        WSGIApplicationGroup %{GLOBAL}
+        WSGIScriptReloading On
+        Order deny,allow
+        Allow from all
+    </directory>
+</virtualhost>
+
+sudo chown -R www-data:www-data /your/backend/dir
+  to grant permission for flask to create folders etc.
+
+!Note: add the port you want to use to /etc/apache2/ports.conf! Listen {port} and Enable corresponding port on your VM/Server!
+
+sudo a2ensite my.webtool
+apache2 restart
+sudo /etc/init.d/apache2 restart
+sudo service apache2 reload
+
+
+https://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask
+
+for authentication:
+conda install flask_httpauth
+add WSGIPassAuthorization On to conf file
+
+for CORS:
+/anaconda/envs/py36server/bin/pip install -U flask-cors
+in .py:
+from flask_cors import CORS
+app = Flask(__name__)
+CORS(app)
+
+sudo a2enmod headers
+
+This should do the trick.
+
+
+
+Backend installed:
+sudo apt-get install libapache2-mod-wsgi-py3
+conda install flask_httpauth
+conda install -U flask-cors
+
+Http request:
+https://medium.freecodecamp.org/here-is-the-most-popular-ways-to-make-an-http-request-in-javascript-954ce8c95aaa
+
+
+!!!!!!!!!!! Note, upon adding any files, change the user to be www-data
+sudo chown -R $USER:$USER /datadrive/123/ProjectsWebServer/*
+sudo chown -R www-data:www-data /datadrive/123/ProjectsWebServer/*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Notice:
+for user www-data, please download nltk.download('punkt') from /home/mozhang/nltk_data to /anaconda/envs/py36server/nltk_data
+
+trouble shooting JSON: callback and CORS
+
+
+
+
+
+
+
+
+sudo apt-get install libapache2-mod-wsgi
+apachectl restart
+sudo a2enmod wsgi
+
+for each flaskapp, the hierarchy should be:
+FlaskAPPs
+  helloworldapp
+    helloworldapp.wsgi
+    __init__.py
+    static
+    templates
+
+create apache config file under {/etc/apache2/sites-available/helloworldapp.conf}
+<VirtualHost *:{port}>
+    ServerName example.com
+
+    WSGIDaemonProcess helloworldapp user=mozhang{your user} group=mozhang{your group} threads=5
+    WSGIScriptAlias / {/path/to/helloworldapp.wsgi}
+
+    <Directory {/path/to/helloworldapp}>
+        WSGIProcessGroup {helloworldapp}
+        Require all granted
+    </Directory>
+</VirtualHost>
+
+create wsgi file:
+#!/usr/bin/python {your python path}
+import sys
+sys.path.insert(0,"{/path/to/FlaskAPPs/}")
+from {helloworldapp} import app as application
+
+sudo a2ensite {helloworldapp}
+sudo systemctl restart apache2.service
+
+!Note: add the port you want to use to /etc/apache2/ports.conf! Listen {port}
+
+it will be running on {public_ip}:{port}/~
+
+
+
+
+backend dependencies:
+Pytorch
+Tensorflow
+BERT-dependencies
+Summarization-dependencies
+Apache dependencies
+flask dependencies

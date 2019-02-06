@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/qa.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="src/common.js"></script>
+    <script type="text/javascript" src="src/qa.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+
+
+<h1>Question & Answering Demo</h1>
+
+<br>
+<br>
+
+<h2>Upload your corpus:</h2>
+Please Put all UTF-8 encoded pure text documents (that contain potential answers to the question) into a zip file and upload it here:
+<br>
+<br>
+<br>
+<form id="InputZip" method=post enctype=multipart/form-data>
+    <input type=file name=file style="background-color: white; /* Green background */
+    border: none; /* Remove borders */
+    padding: 12px 24px; /* Some padding */
+    font-size: 16px; /* Set a font-size */">
+    <button id="uploadButton" type="button" class="buttonload" onclick="this.disabled=true;">
+        <i class="fa" id = "uploadmyi"></i>Upload
+    </button>
+    <br>
+</form>
+
+<br>
+<br>
+
+<h2>Question & Answering:</h2>
+
+Question:
+<br>
+<textarea id="InputText"
+          placeholder="Please put your question here."></textarea>
+<br>
+<br>
+Answer:
+<br>
+<textarea id="ResponseText"
+          placeholder="The answer to the question with regard to the corpus will be given here."></textarea>
+
+
+
+<button id="myButton" class="buttonload" onclick="this.disabled=true;">
+    <i class="fa" id = "myi"></i>Generate answer
+</button>
+
+
+<p>Chrome is the recommended and only tested browser.</p>
+<p>Text has to be encoded in UTF-8.</p>
+<p>Please be aware: This QA Demo approved for use with public data only.</p>
+<p>All rights reserved.</p>
+<!--&lt;!&ndash; <p>Developed by Mohan Zhang at Exxon Mobil. (mohan.zhang@exxonmobil.com) All rights reserved.</p> &ndash;&gt;-->
+
+</body>
+</html>

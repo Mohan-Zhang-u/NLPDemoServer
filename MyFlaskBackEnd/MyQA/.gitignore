@@ -1,0 +1,8 @@
+*.pyc
+*.DS_Store
+*~
+data/
+.idea
+*.tar.gz
+*.npz
+corenlp

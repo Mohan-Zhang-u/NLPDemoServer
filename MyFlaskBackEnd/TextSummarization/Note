@@ -1,0 +1,8 @@
+python decode_full_model.py --path=/home/mozhang/Desktop/GitRepo/Data/tokenize_finished_files --model_dir=/home/mozhang/Desktop/GitRepo/Data/pretrained --beam=5 --test
+
+python decode_full_model.py --path=/home/mozhang/Desktop/GitRepo/Data/To_Save_My_Files --model_dir=/home/mozhang/Desktop/GitRepo/Data/pretrained --beam=5 --test
+
+python decode_full_model.py --path=/home/mozhang/Desktop/GitRepo/MyData/To_Save_My_Files --model_dir=/home/mozhang/Desktop/GitRepo/MyData/pretrained --beam=5 --test
+
+1. there's nothing (data) in pretrained, just weights
+so... it seems to decomposing json files in test (11490 or so?)

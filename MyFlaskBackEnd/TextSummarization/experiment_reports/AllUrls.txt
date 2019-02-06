@@ -1,0 +1,75 @@
+Words:883
+Url: https://www.theguardian.com/world/2018/oct/16/canada-legalizes-recreational-marijuana-law-problems
+Canada will this week become the second country in the world to legalize recreational marijuana, but as they negotiate a patchwork of new legislation and inconsistent enforcement, smokers may soon find that their enjoyment of weed is still blunted.
+
+New rules governing cannabis use are different in each of the country's 10 provinces and three territories, and campaigners warn that experimentation could still result in hefty fines - or even arrest.
+
+"There will be more laws around the cannabis plant after legalization than there were before," said Akwasi Owusu-Bempah, a professor at the University of Toronto. "I don't think the average Canadian is aware of that."
+
+The prime minister, Justin Trudeau, was elected on a manifesto promise to follow the example of Uruguay and legalize cannabis, arguing that the move would cut the estimated C$6bn ($4.5bn) in profits pouring into the black market.
+
+As of Wednesday, Canadians aged 18 and over will be able to legally purchase the drug for recreational use. (Medical marijuana has been legal since 2001.)
+Exactly how they will be able to buy it will vary from province to province: Nova Scotia, (population 940,000) will have 12 stores, run in conjunction with the province's liquor board; British Columbia (population 4.6 million) will have just one. In Ontario - Canada's most populous province - it will initially only be available online.
+
+"It's amazing that Canada has taken this position, setting the stage for the world to watch as we show how cannabis legalization is a good thing," said Robin Ellins, the owner of a cannabis accessory shop in Toronto. "We've spent a quarter of a century advocating for legalization. And now, it's here."
+
+But regulations rushed into place to govern the legal market could have jarring and unintended consequences, said Abby Deshman of the Canadian Civil Liberties Association.
+
+"We're legalizing the industry, but criminalizing a lot of the aspects around the use of cannabis," she said.
+
+Only purchases from officially recognized stores will be legal: someone selling a few ounces to a friend could still face fines or even jail time.
+
+Giving marijuana to a minor remains illegal, so an 18-year-old sharing marijuana with a 17-year-old could in theory face a maximum sentence of 14 years in jail.
+
+"The danger in this is that people are going to go out and think that they're using a legal substance and will use it in a variety of ways that may seem innocuous, but could result in criminal charges," said Deshman.
+
+Meanwhile, the government has shrugged off calls for an amnesty for those prosecuted under the previous legal framework: more than 15,000 have been charged over marijuana-related offences since Trudeau was elected in 2015.
+
+"I want to see social justice happen to those who were criminalized for possession of the plant," said Ellins. "I want to see them go back and expunge that."
+
+Studies have found that black and indigenous residents have faced disproportionate charges and sentencing in Canada's criminal justice system, and legal experts warn that racial disparities will persist after legalization.
+
+"Because our policing practices are racialized anyway, there's no reason to think that's going to change after legalization," said Owusu-Bempah.
+
+"We've got evidence from a number of American states that the racial disparity in arrests for things that remain illegal actually grow after legalization or decriminalization."
+
+Even with more minor aspects of the law, the rules vary dramatically across the country: in Ontario, people will be free to smoke or vape marijuana anywhere they can legally consume tobacco, but in Saskatchewan, public consumption of cannabis will incur a $200 fine; in Manitoba the penalty will be $672.
+
+Travelling with marijuana will not be straightforward: in Manitoba, it must be kept in the car's trunk. In Prince Edward Island, it can be kept in open packaging, but out of the reach of the driver or passengers. But in Canada's north, residents of Nunavut will be barred from carrying it any vehicles.
+
+Stiff penalties will be imposed for anyone caught with more than five nanograms of THC - the psychoactive component of marijuana - in their blood. But critics argue the limit is arbitrary and not backed up by science and warn that medical marjiuana users, who develop higher natural THC levels in their blood, could end up facing severe punishment.
+The stakes are potentially much higher at the border with the US, where marijuana possession and trafficking remains a federal crime. The US border agency was recently forced to clarify that Canadians who work in the burgeoning legal marijuana sector will be allowed to travel to the US, after several were reportedly turned back at the frontier.
+
+Meanwhile, some police officers are still wondering if they themselves will be able to use marijuana while off-duty: in Vancouver, officers have been told to treat it like alcohol, as long as they show up for the job sober. But members of the Toronto police and the Royal Canadian Mounted Police must wait 28 days after consuming the drug before they are considered fit for duty.
+
+Many of the laws reflect a cautious approach by both the federal and provincial governments - and a recognition that the rollout and enforcement will be a learning process for every group involved, said Deshman.
+
+One thing is certain, she added: "There will be legal challenges."
+
+Short: 141 words
+
+http://time.com/5425838/uber-120-billion-possible-ipo/
+Uber Technologies Inc. has recently received proposals from banks for an initial public offering valuing the ride-hailing company at as much as $120 billion, the Wall Street Journal reported, citing people familiar with the matter.
+An IPO at that amount, which could take place early next year according to the Journal, is almost double Uber's recent valuation of about $70 billion. Uber had long been one of the most valuable startups in the world, until China's Bytedance Ltd. was said to be valued at $75 billion.
+Goldman Sachs Group Inc. and Morgan Stanley delivered the proposals to San Francisco-based Uber last month, the Journal reported, citing the unnamed people.
+Uber has been among the most highly anticipated IPOs. The company, founded in 2009, has raised a sizable amount of private capital, including from SoftBank Group Corp., which is its largest shareholder.
+
+Medium: 966 words
+http://time.com/5421850/facebook-google-internet-bill-of-rights/
+Our Founding Fathers drafted the Bill of Rights to safeguard our freedoms in the physical world. Today, as Americans are living more of their lives online, the digital age demands that we have new rights to protect our freedoms in the cyber world.
+To secure these rights, we will have to overcome gridlock and a knowledge gap in Congress. Following the Equifax breach nearly a year ago and the Facebook hearings on Cambridge Analytica six months back, Congress still hasn't acted. Besides a few hearings that exposed our Senators' lack of knowledge of the Internet, Congress adjourned two weeks early to extend the midterm campaigns, instead of staying to work on passing an Internet-reform bill.
+The lack of urgency in Congress has persisted even in the wake of recent revelations that a Facebook security breach exposed 50 million users' personal information to attackers and Google let third-party app developers access information on users who did not give them permission. The truth is that most elected officials and their legislative staff on Capitol Hill simply lack the necessary expertise to write rules for the Internet.
+Since I represent Silicon Valley, Democratic Leader Nancy Pelosi tapped me in April to draft a set of principles for an Internet Bill of Rights. Instead of only focusing on privacy and the right to protect one's own identity and data, I included principles ensuring net neutrality and universal access to the Internet.
+In total, with the help of consumer groups and World Wide Web founder Tim Berners-Lee, we came up with ten principles that can help define rights in the digital age. I imagine thoughtful Republicans such as U.S. Representatives Mike Coffman and Will Hurd, along with Matt Lira from the White House's Office of American Innovation, could collaborate on legislation based on these principles. They are as follows:
+First, you should be able to know and access what personal data of yours companies collect. Instead of reading a long and convoluted legal document, it should be clear and in plain language what information of yours is being collected.
+Second, you should be able to opt-in and consent when that personal data is being collected and shared. It should be clear exactly what you are consenting to, but such prompts shouldn't be relentless to the point of fatigue.
+Third, you should be able to correct or delete incorrect personal data, assuming such action does not violate the First Amendment. This right is not the same as the European Union's "Right to be Forgotten," given that we have the First Amendment protecting the press' free speech in the U.S. In the 2014 case Garcia v. Google, the Ninth U.S. Circuit Court of Appeals wrote that "such a 'right to be forgotten,' although recently affirmed by the Court of Justice for the European Union, is not recognized in the United States."
+Fourth, if you allow a company to collect your personal data, that data should be properly secured. If for some reason there is a breach, that company must notify you in a timely manner, not only when it's financially convenient. Last year, despite knowing about the security breach on July 29, Equifax waited until Sept. 7 until they notified their customers. Similarly, Facebook shouldn't have been able to wait years to publicly announce its Cambridge Analytica breach.
+Fifth, you should be able to have data-portability and move your personal data from network to network. It's your data and you should have the right to move it if you want - including moving your personal network from Facebook or Snapchat to any other social media platform.
+Sixth, you should have access to a free and open Internet despite efforts by the Trump Administration and FCC Chairman Ajit Pai to dismantle net-neutrality protections. Internet service providers should not be permitted to block, throttle and unfairly favor certain content, applications, services or devices.
+Seventh, you should be able to access the Internet without the collection of data that is unnecessary for providing the requested service. An Internet service provider reasonably needs to know your name and address. But it's hard to imagine why a provider would need to collect your Internet browsing habits other than to sell your data.
+Eighth, you should be able to access multiple viable, affordable Internet platforms, services and providers with clear and transparent pricing. According to the FCC, 30% of Americans have only one choice for broadband service. Thirteen percent don't have access to a provider at all. All Americans must have access to the Internet in today's digital world, and the market needs competition to drive affordable prices.
+Ninth, just like you can no longer be discriminated against at the lunch counter, you should have the right to not be exploited or unfairly discriminated against based on your personal data. For instance, advertisements for high-paying jobs should not be disproportionately shown to men, and if you search for black names and fraternities, you shouldn't be more likely to see advertisements for arrest records.
+Tenth, in the case where an entity collects your personal data, it must adopt cybersecurity best practices. There should be an understanding and trust that your privacy and data will be protected. Entities need to be held legally responsible for not implementing reasonable business practices.
+My hope is that these ten rights will begin the much-needed and long-overdue conversation in Congress to guide a legislative solution that restores our privacy and protection online.
+The American people can no longer wait while their data is being collected, shared and stolen on the web. The Internet can be a tool for more freedom and prosperity, but only if proper rules and guidelines exist. Our constituents tasked us to make those rules. It is now up to Congress to answer that call and bring our laws into the 21st Century.

@@ -1,0 +1,21 @@
+{
+    "net": "base_abstractor", 
+    "net_args": {
+        "vocab_size": 30004, 
+        "n_hidden": 256, 
+        "emb_dim": 128, 
+        "n_layer": 1, 
+        "bidirectional": true
+    }, 
+    "traing_params": {
+        "clip_grad_norm": 2.0, 
+        "optimizer": [
+            "adam", 
+            {
+                "lr": 0.001
+            }
+        ], 
+        "lr_decay": 0.5, 
+        "batch_size": 32
+    }
+}

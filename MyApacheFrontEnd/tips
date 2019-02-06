@@ -1,0 +1,41 @@
+give port 80, 8080
+sudo apt install apache2
+
+For 403 forbidden:
+change /etc/apache2/apache2.conf:
+    <Directory />
+        Options Indexes FollowSymLinks
+        AllowOverride All/root
+        Require all denied
+    </Directory>
+    Change it to
+
+    <Directory />
+        Options Indexes FollowSymLinks Includes ExecCGI
+        AllowOverride All
+        Require all granted
+    </Directory>
+
+change user:
+sudo chown -R www-data:www-data /your/path/html/                    sudo chown -R $USER:$USER /your/path/html/
+sudo chmod -R 755 /your/path/html/
+sudo chmod -R 755 /var/www/html/
+
+!Note: add the port you want to use to /etc/apache2/ports.conf! Listen 6001 and Enable corresponding port on your VM/Server!
+
+add a index.conf in /etc/sites-available
+change the DocumentRoot /your/path/html/
+    # change the port and DocumentRoot
+    # possibily listen to the local calls? 127.0.0.1:backend port
+
+Enable the new VirtualHost using the a2ensite utility and restart Apache2:
+sudo a2ensite index
+sudo systemctl restart apache2.service
+
+    (use the a2dissite utility to disable sites
+        sudo a2dissite mynewsite
+        sudo systemctl restart apache2.service)
+
+sudo service apache2 reload
+
+https://www.ostechnix.com/configure-apache-virtual-hosts-ubuntu-part-1/
