@@ -2,8 +2,6 @@
 #mylines
 export PATH="/anaconda/envs/py36/bin:$PATH"
 export CLASSPATH=stanford-corenlp-full-2018-10-05/stanford-corenlp-3.9.2.jar
-# alias pip=/anaconda/envs/py36/bin/pip
-alias anaconda-navigator=/anaconda/bin/anaconda-navigator
 
 #tmps
 export DATA=To_Be_Clean/$1/finished_files
