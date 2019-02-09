@@ -1,10 +1,6 @@
 #!/usr/bin/env bash
 
-# set source
-export PATH="/anaconda/envs/py36server/bin:$PATH"
-# alias pip=/anaconda/envs/py36/bin/pip
-alias anaconda-navigator=/anaconda/bin/anaconda-navigator
-
+export PATH="/anaconda/envs/py36/bin:$PATH"
 
 task_name="CoLA"
 python ../my_run_classifier.py \

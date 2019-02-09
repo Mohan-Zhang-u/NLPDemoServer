@@ -1,4 +1,4 @@
-#!/anaconda/envs/py36server/bin/python
+#!/anaconda/envs/py36/bin/python
 
 from flask import Flask, request, jsonify, abort, make_response
 # from flask_httpauth import HTTPBasicAuth

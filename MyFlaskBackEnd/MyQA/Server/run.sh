@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #mylines
-export PATH="/anaconda/envs/py36server/bin:$PATH"
+export PATH="/anaconda/envs/py36/bin:$PATH"
 alias anaconda-navigator=/anaconda/bin/anaconda-navigator
 export CLASSPATH=$CLASSPATH:data/corenlp/*
 

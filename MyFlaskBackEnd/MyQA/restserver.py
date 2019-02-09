@@ -10,7 +10,11 @@ import codecs
 import os
 import json
 
-UPLOAD_FOLDER = '/datadrive/123/ProjectsWebServer/MyFlaskBackEnd/MyQA/Server/UploadFolder'
+import CreateSearchBase
+import AnswerTheQuestion
+
+
+UPLOAD_FOLDER = 'UploadFolder'
 ALLOWED_EXTENSIONS = set(['txt', 'zip'])
 
 app = Flask(__name__)
@@ -33,6 +37,9 @@ def allowed_file(filename):
 
 @app.route('/uploadzip', methods=['GET', 'POST'])
 def upload_file():
+    import sys
+    with open('1111111111.txt','w+') as fp:
+        fp.write(sys.executable)
     if request.method == 'POST':
         # check if the post request has the file part
         if 'file' not in request.files:
@@ -47,9 +54,11 @@ def upload_file():
         if file and allowed_file(file.filename):
             filename = secure_filename(file.filename)
             file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
-            runstring = "./run.sh"
-            p1 = subprocess.Popen([runstring], shell=True, executable="/bin/bash")
-            p1.wait()
+            CreateSearchBase.main_func()
+
+            # runstring = "./run.sh"
+            # p1 = subprocess.Popen([runstring], shell=True, executable="/bin/bash")
+            # p1.wait()
             return "finished"
             # return redirect(url_for('uploaded_file',
             #                         filename=filename))
@@ -69,17 +78,25 @@ def PostInputTextTask():
     if not request.json:
         abort(400)
     file_text = request.json['InputText']
-    ctime = str(int(round(time.time() * 1000)))
-    runstring = "./AnswerTheQuestion.sh \"" + file_text + "\""
-    p1 = subprocess.Popen([runstring], shell=True, executable="/bin/bash")
-    p1.wait()
-    with codecs.open("../MyAnswers/predictions.json", 'r', encoding='utf-8') as fp:
+    AnswerTheQuestion.main_func(file_text)
+    with codecs.open("MyAnswers/predictions.json", 'r', encoding='utf-8') as fp:
         predictDict = json.load(fp)
-    ans = list(predictDict.values())[0]
-    if ans == "empty":
+    if list(predictDict.values())[0] == "empty":
         return "Sorry, the model is not able to find an answer to the question in the uploaded corpus."
     else:
-        return ans
+        return predictDict
+
+    # ctime = str(int(round(time.time() * 1000)))
+    # runstring = "./AnswerTheQuestion.sh \"" + file_text + "\""
+    # p1 = subprocess.Popen([runstring], shell=True, executable="/bin/bash")
+    # p1.wait()
+    # with codecs.open("../MyAnswers/predictions.json", 'r', encoding='utf-8') as fp:
+    #     predictDict = json.load(fp)
+    # ans = list(predictDict.values())[0]
+    # if ans == "empty":
+    #     return "Sorry, the model is not able to find an answer to the question in the uploaded corpus."
+    # else:
+    #     return ans
 
 
 @app.route('/uploads/<filename>')

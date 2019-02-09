@@ -8,7 +8,7 @@ code /etc/hosts
   so that anything go to my.webtool will be sent to 127.0.0.1 and apache will pick up accordingly.
 
 Create webtool.wsgi:
-#!/anaconda/envs/py36server/bin/python
+#!/anaconda/envs/py36/bin/python
 import sys
 sys.path.insert(0,"/datadrive/123/ProjectsWebServer/MyFlaskBackEnd/flask-prod")
 from webtool import app as application
@@ -19,7 +19,7 @@ create virtual host: /etc/apache2/sites-available/my.webtool.conf
 <virtualhost *:{port}>
     ServerName my.webtool
 
-    WSGIDaemonProcess webtool user=www-data group=www-data threads=5 home=/datadrive/123/ProjectsWebServer/MyFlaskBackEnd/flask-prod python-path=/anaconda/envs/py36server/lib/python3.6/site-packages
+    WSGIDaemonProcess webtool user=www-data group=www-data threads=5 home=/datadrive/123/ProjectsWebServer/MyFlaskBackEnd/flask-prod python-path=/anaconda/envs/py36/lib/python3.6/site-packages
     WSGIScriptAlias / /datadrive/123/ProjectsWebServer/MyFlaskBackEnd/flask-prod/webtool.wsgi
     # WSGIPassAuthorization On
 
@@ -50,7 +50,7 @@ conda install flask_httpauth
 add WSGIPassAuthorization On to conf file
 
 for CORS:
-/anaconda/envs/py36server/bin/pip install -U flask-cors
+/anaconda/envs/py36/bin/pip install -U flask-cors
 in .py:
 from flask_cors import CORS
 app = Flask(__name__)
@@ -95,7 +95,7 @@ sudo chown -R www-data:www-data /datadrive/123/ProjectsWebServer/*
 
 
 Notice:
-for user www-data, please download nltk.download('punkt') from /home/mozhang/nltk_data to /anaconda/envs/py36server/nltk_data
+for user www-data, please download nltk.download('punkt') from /home/mozhang/nltk_data to /anaconda/envs/py36/nltk_data
 
 trouble shooting JSON: callback and CORS
 
