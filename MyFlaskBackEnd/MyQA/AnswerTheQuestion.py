@@ -13,7 +13,7 @@ QES_JSON_DIR = "MyRetrievedData/DocToRead"
 DEFAULT_CONTENT = "  I'm pretty sure that it is not the answer.  \n"
 
 
-def main_func(question, isServer=True):
+def main_func(question, isServer):
     mzutils.mkdir_p("MyRetrievedData/retrieved")
     mzutils.mkdir_p("MyRetrievedData/DocToRead")
     mzutils.mkdir_p("MyAnswers")

@@ -1,9 +1,7 @@
 #!/usr/bin/env bash
 
 # set source
-export PATH="/anaconda/envs/py36QA/bin:$PATH"
-# alias pip=/anaconda/envs/py36/bin/pip
-alias anaconda-navigator=/anaconda/bin/anaconda-navigator
+export PATH="/anaconda/envs/py36/bin:$PATH"
 export CLASSPATH=$CLASSPATH:data/corenlp/*
 
 export BERT_BASE_DIR=MyBERT/fine_tuned/BERT_BASE/squad
@@ -17,8 +15,6 @@ mkdir -p MyAnswers
 
 rm MyRetrievedData/retrieved/retrieved.json
 
-python FillInRandomFilesIfNeeded.py
-
 echo "Enter Your Questions:"
 read question
 question=${question%\?*}
@@ -27,8 +23,8 @@ question="$question ?"
 # question="latent allocation"
 
 
-python retriever/RetrieverProcess.py MyRetrievedData/myTFIDF/SearchBase.npz "$question" 5 MyRetrievedData/retrieved/retrieved.json
-python retriever/Pipeline.py MyCorpus MyRetrievedData/retrieved/retrieved.json MyRetrievedData/DocToRead/DocToRead.json "$question"
+python retriever/RetrieverProcess.py MyRetrievedData/myTFIDF/SearchBase.npz "$question" 3 MyRetrievedData/retrieved/retrieved.json
+python retriever/Pipeline.py MySegmented MyRetrievedData/retrieved/retrieved.json MyRetrievedData/DocToRead/DocToRead.json "$question"
 
 for d in $QES_JSON_DIR/*.json ;
 do

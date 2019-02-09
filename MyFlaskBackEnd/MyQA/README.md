@@ -6,19 +6,22 @@
 - Document Retriever using bigram hashing and TF-IDF matching to pick the mostrelevant articles regarding to the question.
 - Answer Extractor using the Deep Bidirectional Transformers invited byGoogle AI Languageon Oct.2018, pretrained on Wikipedia for Language understanding and fine-tuned onSQuAD 2.0for reading comprehension, to locate the answer fromrelevant articles extracted by Document Retriever.
 - BERT large uncased pretrained weights are used here (340m parameteres, 1.2g to load, requires more than 24G of GPU memory)
-# installation
+
+# Installation
 - All the pretrained weights can be found in this url:https://drive.google.com/open?id=1o28REZy5FfSlr1DRSy89viWyrnv-yAII
-- Python packages: 
-tensorflow >= 1.11.0 
-numpy
-scikit-learn
-termcolor
-regex
-tqdm
-prettytable
-scipy
-nltk
-pexpect==4.2.1
+
+# Requirement
+- tensorflow >= 1.11.0 
+- mzutils (this is an actively updated package, please make sure to run pip install --upgrade mzutils if any problem encountered)
+- numpy
+- scikit-learn
+- termcolor
+- regex
+- tqdm
+- prettytable
+- scipy
+- nltk
+- pexpect
 
 
 # Easy Peasy Usage

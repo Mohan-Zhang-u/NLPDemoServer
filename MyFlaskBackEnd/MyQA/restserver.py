@@ -37,9 +37,6 @@ def allowed_file(filename):
 
 @app.route('/uploadzip', methods=['GET', 'POST'])
 def upload_file():
-    import sys
-    with open('1111111111.txt','w+') as fp:
-        fp.write(sys.executable)
     if request.method == 'POST':
         # check if the post request has the file part
         if 'file' not in request.files:
@@ -54,7 +51,7 @@ def upload_file():
         if file and allowed_file(file.filename):
             filename = secure_filename(file.filename)
             file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
-            CreateSearchBase.main_func()
+            CreateSearchBase.main_func(768, True)
 
             # runstring = "./run.sh"
             # p1 = subprocess.Popen([runstring], shell=True, executable="/bin/bash")
@@ -78,7 +75,7 @@ def PostInputTextTask():
     if not request.json:
         abort(400)
     file_text = request.json['InputText']
-    AnswerTheQuestion.main_func(file_text)
+    AnswerTheQuestion.main_func(file_text, True)
     with codecs.open("MyAnswers/predictions.json", 'r', encoding='utf-8') as fp:
         predictDict = json.load(fp)
     if list(predictDict.values())[0] == "empty":

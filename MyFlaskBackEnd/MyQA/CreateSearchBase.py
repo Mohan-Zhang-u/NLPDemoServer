@@ -17,7 +17,7 @@ my_args = ["UploadFolder", "MyCorpus", "MySegmented", 3847681024, "MyRetrievedDa
            "MyRetrievedData/tmp/MyCorpusDataBase/db.db"]
 
 
-def main_func(H=768, isServer=True):
+def main_func(H, isServer):
     # os.environ['PATH'] = "/anaconda/envs/py36QA/bin"
     # os.environ['CLASSPATH'] = "data/corenlp/*"
     #

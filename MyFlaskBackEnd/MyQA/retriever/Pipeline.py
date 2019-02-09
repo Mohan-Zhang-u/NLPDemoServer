@@ -70,29 +70,46 @@ def generate_multi_test_cases(list_of_paragraphs, list_of_questions, document_re
         new_paragraph = {}
         new_paragraph["context"] = list_of_paragraphs[j]
         new_paragraph["qas"] = [{"answers": [{"answer_start": -1, "text": ""}], "question": list_of_questions[j],
-                                 "id": list_of_questions[j]}]
+                                 "id": j}]
         data.append({"title": "", "paragraphs": [new_paragraph]})  # here we can have multiple paragraph in paragraphs
 
     with codecs.open(document_reader_json_path, 'w', encoding='utf-8') as fp:
         json.dump(jsondict, fp)
 
 
-def pipeline(corpus_path, retrieved_json_path, document_reader_json_path, question):
-    document = ""
-    doc_names = {}
+def pipeline(corpus_path, retrieved_json_path, document_reader_json_path, question, default_content=""):
+    documents = []
+    questions = []
     with codecs.open(retrieved_json_path, 'r', encoding='utf-8') as fpr:
         doc_names = json.load(fpr)
-    doc_names=doc_names["doc_names"]
+    doc_names = doc_names["doc_names"]
     for doc_name in doc_names:
-        with codecs.open(corpus_path + '/' + doc_name, 'r', encoding='utf-8') as fprc:
+        with codecs.open(os.path.join(corpus_path, doc_name), 'r', encoding='utf-8') as fprc:
             content = fprc.read()
-            document += content
-            document += os.linesep
-            document += os.linesep
-    document=format_paragraph(document)
-    list_of_paragraphs=[document]
-    list_of_questions=[question]
+            if content not in default_content:
+                documents.append(format_paragraph(content) + os.linesep)
+                questions.append(question)
+    list_of_paragraphs = documents
+    list_of_questions = questions
     generate_multi_test_cases(list_of_paragraphs, list_of_questions, document_reader_json_path)
+
+
+# def pipeline(corpus_path, retrieved_json_path, document_reader_json_path, question):
+#     document = ""
+#     doc_names = {}
+#     with codecs.open(retrieved_json_path, 'r', encoding='utf-8') as fpr:
+#         doc_names = json.load(fpr)
+#     doc_names=doc_names["doc_names"]
+#     for doc_name in doc_names:
+#         with codecs.open(os.path.join(corpus_path,doc_name), 'r', encoding='utf-8') as fprc:
+#             content = fprc.read()
+#             document += content
+#             document += os.linesep
+#             document += os.linesep
+#     document=format_paragraph(document)
+#     list_of_paragraphs=[document]
+#     list_of_questions=[question]
+#     generate_multi_test_cases(list_of_paragraphs, list_of_questions, document_reader_json_path)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()

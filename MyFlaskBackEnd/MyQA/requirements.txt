@@ -1,3 +1,4 @@
+mzutils
 numpy
 scikit-learn
 termcolor
@@ -6,4 +7,4 @@ tqdm
 prettytable
 scipy
 nltk
-pexpect==4.2.1
+pexpect

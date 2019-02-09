@@ -10,7 +10,7 @@ code /etc/hosts
 Create webtool.wsgi:
 #!/anaconda/envs/py36/bin/python
 import sys
-sys.path.insert(0,"/datadrive/123/ProjectsWebServer/MyFlaskBackEnd/flask-prod")
+sys.path.insert(0,"/datadrive/123/NLPDemoServer/MyFlaskBackEnd/flask-prod")
 from webtool import app as application
   where we have a webtool.py in /var/www/flask-prod
 chmod 755 webtool.wsgi
@@ -19,11 +19,11 @@ create virtual host: /etc/apache2/sites-available/my.webtool.conf
 <virtualhost *:{port}>
     ServerName my.webtool
 
-    WSGIDaemonProcess webtool user=www-data group=www-data threads=5 home=/datadrive/123/ProjectsWebServer/MyFlaskBackEnd/flask-prod python-path=/anaconda/envs/py36/lib/python3.6/site-packages
-    WSGIScriptAlias / /datadrive/123/ProjectsWebServer/MyFlaskBackEnd/flask-prod/webtool.wsgi
+    WSGIDaemonProcess webtool user=www-data group=www-data threads=5 home=/datadrive/123/NLPDemoServer/MyFlaskBackEnd/flask-prod python-path=/anaconda/envs/py36/lib/python3.6/site-packages
+    WSGIScriptAlias / /datadrive/123/NLPDemoServer/MyFlaskBackEnd/flask-prod/webtool.wsgi
     # WSGIPassAuthorization On
 
-    <directory /datadrive/123/ProjectsWebServer/MyFlaskBackEnd/flask-prod>
+    <directory /datadrive/123/NLPDemoServer/MyFlaskBackEnd/flask-prod>
         WSGIProcessGroup webtool
         WSGIApplicationGroup %{GLOBAL}
         WSGIScriptReloading On
@@ -72,8 +72,8 @@ https://medium.freecodecamp.org/here-is-the-most-popular-ways-to-make-an-http-re
 
 
 !!!!!!!!!!! Note, upon adding any files, change the user to be www-data
-sudo chown -R $USER:$USER /datadrive/123/ProjectsWebServer/*
-sudo chown -R www-data:www-data /datadrive/123/ProjectsWebServer/*
+sudo chown -R $USER:$USER /datadrive/123/NLPDemoServer/*
+sudo chown -R www-data:www-data /datadrive/123/NLPDemoServer/*
 
 
 

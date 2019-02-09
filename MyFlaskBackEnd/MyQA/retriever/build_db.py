@@ -1,9 +1,3 @@
-#!/usr/bin/env python3
-# Copyright 2017-present, Facebook, Inc.
-# All rights reserved.
-#
-# This source code is licensed under the license found in the
-# LICENSE file in the root directory of this source tree.
 """A script to read in and store documents in a sqlite database."""
 
 import argparse
@@ -16,6 +10,7 @@ import importlib.util
 from multiprocessing import Pool as ProcessPool
 from tqdm import tqdm
 from subutils import utils
+# from retriever.subutils import utils
 
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
@@ -123,15 +118,16 @@ def store_contents(data_path, save_path, preprocess, num_workers=None):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('data_path', type=str, help='/path/to/data')
-    parser.add_argument('save_path', type=str, help='/path/to/saved/db.db')
+    parser.add_argument('-data_path', type=str, help='/path/to/data')
+    parser.add_argument('-save_path', type=str, help='/path/to/saved/db.db')
     parser.add_argument('--preprocess', type=str, default=None,
                         help=('File path to a python module that defines '
                               'a `preprocess` function'))
     parser.add_argument('--num-workers', type=int, default=None,
                         help='Number of CPU processes (for tokenizing, etc)')
     args = parser.parse_args()
-
+    # print("1:"+args.data_path)
+    # print("1:"+args.save_path)
     store_contents(
         args.data_path, args.save_path, args.preprocess, args.num_workers
     )

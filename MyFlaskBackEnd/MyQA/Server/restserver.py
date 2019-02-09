@@ -10,7 +10,7 @@ import codecs
 import os
 import json
 
-UPLOAD_FOLDER = '/datadrive/123/ProjectsWebServer/MyFlaskBackEnd/MyQA/Server/UploadFolder'
+UPLOAD_FOLDER = 'UploadFolder'
 ALLOWED_EXTENSIONS = set(['txt', 'zip'])
 
 app = Flask(__name__)
