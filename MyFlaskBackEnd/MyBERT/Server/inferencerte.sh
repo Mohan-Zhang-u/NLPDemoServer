@@ -2,8 +2,6 @@
 
 # set source
 export PATH="/anaconda/envs/py36/bin:$PATH"
-# alias pip=/anaconda/envs/py36/bin/pip
-alias anaconda-navigator=/anaconda/bin/anaconda-navigator
 
 
 task_name="RTE"
