@@ -1,0 +1,16 @@
+In the previous example, the expected output answer is "1st Oct."
+
+Issues
+In 2002, a group of researchers presented an unpublished and largely unsourced report as a funding support document, in which they describe a 5-year roadmap of research current to the state of the question answering field at that time. Progress
+QA systems have been extended in recent years to encompass additional domains of knowledge[10] For example, systems have been developed to automatically answer temporal and geospatial questions, questions of definition and terminology, biographical questions, multilingual questions, and questions about the content of audio, images, and video. Current QA research topics include:
+
+interactivity—clarification of questions or answers
+answer reuse or caching
+answer presentation[11]
+knowledge representation and reasoning
+social media analysis with QA systems
+sentiment analysis[12]
+utilization of thematic roles[13]
+semantic resolution: to bridge the gap between syntactically different questions and answer-bearing texts[14]
+utilization of linguistic resources,[15] such as WordNet, FrameNet, and the similar
+IBM's question answering system, Watson, defeated the two greatest Jeopardy! champions, Brad Rutter and Ken Jennings, by a significant margin. [16] Facebook Research has made their DrQA system[17] available under an open source license. This system has been used for open domain question answering using Wikipedia as knowledge source[18]. 

@@ -33,11 +33,8 @@ def main_func(H, isServer):
     mzutils.mkdir_p(my_args[6])
     mzutils.mkdir_p(my_args[7])
     mzutils.mkdir_p(my_args[8])
-    print(1)
     SupportingScripts.DocumentsSegmentorandFillInFiles.main_func(my_args[1], my_args[2], H)
-    print(2)
     retriever.FromPureTextToJsons.CreateJsonFile(my_args[2], my_args[6])
-    print(3)
     retriever.build_db.store_contents(my_args[6], my_args[9], None, None)
     p2 = subprocess.call([sys.executable, "retriever/build_tfidf.py", my_args[9], my_args[8]])
 

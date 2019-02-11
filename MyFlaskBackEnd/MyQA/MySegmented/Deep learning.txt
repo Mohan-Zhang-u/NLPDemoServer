@@ -1,0 +1,67 @@
+Deep learning
+From Wikipedia, the free encyclopedia
+Jump to navigationJump to search
+For deep versus shallow learning in educational psychology, see Student approaches to learning. For more information, see Artificial neural network. Machine learning and
+data mining
+Kernel Machine.svg
+Problems[show]
+Supervised learning
+(classification • regression)
+[show]
+Clustering[show]
+Dimensionality reduction[show]
+Structured prediction[show]
+Anomaly detection[show]
+Artificial neural networks[show]
+Reinforcement learning[show]
+Theory[show]
+Machine-learning venues[show]
+Glossary of artificial intelligence[show]
+Related articles[show]
+Portal-puzzle.svg Machine learning portal
+vte
+Deep learning (also known as deep structured learning or hierarchical learning) is part of a broader family of machine learning methods based on learning data representations, as opposed to task-specific algorithms. Learning can be supervised, semi-supervised or unsupervised. [1][2][3]
+
+Deep learning architectures such as deep neural networks, deep belief networks and recurrent neural networks have been applied to fields including computer vision, speech recognition, natural language processing, audio recognition, social network filtering, machine translation, bioinformatics, drug design, medical image analysis, material inspection and board game programs, where they have produced results comparable to and in some cases superior to human experts. [4][5][6]
+
+Deep learning models are vaguely inspired by information processing and communication patterns in biological nervous systems yet have various differences from the structural and functional properties of biological brains (especially human brains), which make them incompatible with neuroscience evidences. [7][8][9]
+
+
+Contents
+1	Definition
+2	Overview
+3	Interpretations
+4	History
+4.1	Deep learning revolution
+5	Neural networks
+5.1	Artificial neural networks
+5.2	Deep neural networks
+6	Applications
+6.1	Automatic speech recognition
+6.2	Image recognition
+6.3	Visual art processing
+6.4	Natural language processing
+6.5	Drug discovery and toxicology
+6.6	Customer relationship management
+6.7	Recommendation systems
+6.8	Bioinformatics
+6.9	Mobile advertising
+6.10	Image restoration
+6.11	Financial fraud detection
+6.12	Military
+7	Relation to human cognitive and brain development
+8	Commercial activity
+9	Criticism and comment
+9.1	Theory
+9.2	Errors
+9.3	Cyberthreat
+10	See also
+11	References
+12	External links
+Definition
+Deep learning is a class of machine learning algorithms that:[10](pp199–200)
+
+use a cascade of multiple layers of nonlinear processing units for feature extraction and transformation. Each successive layer uses the output from the previous layer as input. learn in supervised (e.g., classification) and/or unsupervised (e.g., pattern analysis) manners. learn multiple levels of representations that correspond to different levels of abstraction; the levels form a hierarchy of concepts. Overview
+Most modern deep learning models are based on an artificial neural network, although they can also include propositional formulas or latent variables organized layer-wise in deep generative models such as the nodes in deep belief networks and deep Boltzmann machines. [11]
+
+In deep learning, each level learns to transform its input data into a slightly more abstract and composite representation. In an image recognition application, the raw input may be a matrix of pixels; the first representational layer may abstract the pixels and encode edges; the second layer may compose and encode arrangements of edges; the third layer may encode a nose and eyes; and the fourth layer may recognize that the image contains a face. 
