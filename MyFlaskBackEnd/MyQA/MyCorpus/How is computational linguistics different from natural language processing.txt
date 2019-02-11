@@ -1,0 +1,25 @@
+Here's the distinction I personally make:
+
+Computational linguistics is analogous to computational biology or any other computational fill-in-the-blank. It develops computational methods to answer the scientific questions of linguistics.
+
+The core questions in linguistics involve the nature of linguistic representations and linguistic knowledge, and how linguistic knowledge is acquired and deployed in the production and comprehension of language. Answering these questions describes the human language ability and may help to explain the distribution of linguistic data and behavior that we actually observe.
+
+In computational linguistics, we propose formal answers to these core questions. Linguists are really asking what humans are computing and how. So we mathematically define classes of linguistic representations and formal grammars (which are usually probabilistic models nowadays) that seem adequate to capture the range of phenomena in human languages. We study their mathematical properties, and devise efficient algorithms for learning, production, and comprehension. Because the algorithms can actually run, we can test our models and find out whether they make appropriate predictions.
+
+Linguistics also considers a variety of questions beyond this core -- think of sociolinguistics, historical linguistics, psycholinguistics, and neurolinguistics. These scientific questions are fair game as well for computational linguists, who might use models and algorithms to make sense of the data. In this case, we are not trying to model the competence of everyday speakers in their native language, but rather to automate the special kind of reasoning that linguists do, potentially enabling us to work on bigger datasets (or even new kinds of data) and draw more accurate conclusions. Similarly, computational linguists may design software tools to help document endangered languages.
+
+Natural language processing is the art of solving engineering problems that need to analyze (or generate) natural language text. Here, the metric of success is not whether you designed a better scientific theory or proved that languages X and Y were historically related. Rather, the metric is whether you got good solutions on the engineering problem.
+
+For example, you don't judge Google Translate on whether it captures what translation "truly is" or explains how human translators do their job. You judge it on whether it produces reasonably accurate and fluent translations for people who need to translate certain things in practice. The machine translation community has ways of measuring this, and they focus strongly on improving those scores.
+
+NLP is mainly used to help people navigate and digest large quantities of information that already exist in text form. It is also used to produce better user interfaces so that humans can better communicate with computers and with other humans.
+
+By saying that NLP is engineering, I don't mean that it is always focused on developing commercial applications. NLP may be used for scientific ends within other academic disciplines such as political science (blog posts), economics (financial news and reports), medicine (doctor's notes), digital humanities (literary works, historical sources), etc. But then it is being used as a tool within computational X-ology in order to answer the scientific questions of X-ologists, rather than the scientific questions of linguists.
+
+Both fields make use of formal training in CS, linguistics, and machine learning. If you want to truly advance either field in a lasting way, you should develop enough strength to do original research in all three of these areas. It might help to go to a school with a strong interdisciplinary culture, where many of the CS faculty and students are actively interested in linguistics for its own sake (or vice-versa).
+
+That said, NLP people often get away with relatively superficial linguistics. They look at the errors made by their current system, and learn only as much linguistics as they need to understand and fix the most prominent types of errors. After all, their goal is not a full theory but rather the simplest, most efficient approach that will get the job done.
+
+Conversely, if you study computational linguistics in a linguistics department, you will typically get a lot more linguistics and a lot less CS/ML. The students in those departments are technically adept, since linguistics is quite a technical field. But they tend to know much less math and CS. So the computational courses tend to be providing only some exposure to formal language theory, programming, and applied NLP. (These courses are popular among linguistics students who hope to improve their employability.)
+
+Eventually I hope the two research programs will draw even closer together. If we can build a strong model of the human linguistic capacity, then that should solve a wide range of NLP problems for us. So today's computational linguistics is developing methods for tomorrow's NLP. That's been historically true too.

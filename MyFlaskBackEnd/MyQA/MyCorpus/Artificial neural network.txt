@@ -1,0 +1,244 @@
+Artificial neural networks (ANN) or connectionist systems are computing systems vaguely inspired by the biological neural networks that constitute animal brains.[1] The neural network itself is not an algorithm, but rather a framework for many different machine learning algorithms to work together and process complex data inputs.[2] Such systems "learn" to perform tasks by considering examples, generally without being programmed with any task-specific rules. For example, in image recognition, they might learn to identify images that contain cats by analyzing example images that have been manually labeled as "cat" or "no cat" and using the results to identify cats in other images. They do this without any prior knowledge about cats, for example, that they have fur, tails, whiskers and cat-like faces. Instead, they automatically generate identifying characteristics from the learning material that they process.
+
+An ANN is based on a collection of connected units or nodes called artificial neurons, which loosely model the neurons in a biological brain. Each connection, like the synapses in a biological brain, can transmit a signal from one artificial neuron to another. An artificial neuron that receives a signal can process it and then signal additional artificial neurons connected to it.
+
+In common ANN implementations, the signal at a connection between artificial neurons is a real number, and the output of each artificial neuron is computed by some non-linear function of the sum of its inputs. The connections between artificial neurons are called 'edges'. Artificial neurons and edges typically have a weight that adjusts as learning proceeds. The weight increases or decreases the strength of the signal at a connection. Artificial neurons may have a threshold such that the signal is only sent if the aggregate signal crosses that threshold. Typically, artificial neurons are aggregated into layers. Different layers may perform different kinds of transformations on their inputs. Signals travel from the first layer (the input layer), to the last layer (the output layer), possibly after traversing the layers multiple times.
+
+The original goal of the ANN approach was to solve problems in the same way that a human brain would. However, over time, attention moved to performing specific tasks, leading to deviations from biology. Artificial neural networks have been used on a variety of tasks, including computer vision, speech recognition, machine translation, social network filtering, playing board and video games and medical diagnosis.
+
+
+Contents
+1	History
+1.1	Hebbian learning
+1.2	Backpropagation
+1.3	Hardware-based designs
+1.4	Contests
+1.5	Convolutional networks
+2	Models
+2.1	Components of an artificial neural network
+2.2	Neural networks as functions
+2.3	Learning
+2.4	Learning paradigms
+2.5	Learning algorithms
+3	Variants
+3.1	Group method of data handling
+3.2	Convolutional neural networks
+3.3	Long short-term memory
+3.4	Deep reservoir computing
+3.5	Deep belief networks
+3.6	Large memory storage and retrieval neural networks
+3.7	Stacked (de-noising) auto-encoders
+3.8	Deep stacking networks
+3.9	Tensor deep stacking networks
+3.10	Spike-and-slab RBMs
+3.11	Compound hierarchical-deep models
+3.12	Deep predictive coding networks
+3.13	Networks with separate memory structures
+3.14	Multilayer kernel machine
+4	Neural architecture search
+5	Use
+6	Applications
+6.1	Types of models
+7	Theoretical properties
+7.1	Computational power
+7.2	Capacity
+7.3	Convergence
+7.4	Generalization and statistics
+8	Criticism
+8.1	Training issues
+8.2	Theoretical issues
+8.3	Hardware issues
+8.4	Practical counterexamples to criticisms
+8.5	Hybrid approaches
+9	Types
+10	Gallery
+11	See also
+12	References
+13	Bibliography
+14	External links
+History
+Warren McCulloch and Walter Pitts[3] (1943) created a computational model for neural networks based on mathematics and algorithms called threshold logic. This model paved the way for neural network research to split into two approaches. One approach focused on biological processes in the brain while the other focused on the application of neural networks to artificial intelligence. This work led to work on nerve networks and their link to finite automata.[4]
+
+Hebbian learning
+In the late 1940s, D. O. Hebb[5] created a learning hypothesis based on the mechanism of neural plasticity that became known as Hebbian learning. Hebbian learning is unsupervised learning. This evolved into models for long term potentiation. Researchers started applying these ideas to computational models in 1948 with Turing's B-type machines.
+
+Farley and Clark[6] (1954) first used computational machines, then called "calculators", to simulate a Hebbian network. Other neural network computational machines were created by Rochester, Holland, Habit and Duda (1956).[7]
+
+Rosenblatt[8] (1958) created the perceptron, an algorithm for pattern recognition. With mathematical notation, Rosenblatt described circuitry not in the basic perceptron, such as the exclusive-or circuit that could not be processed by neural networks at the time.[9]
+
+In 1959, a biological model proposed by Nobel laureates Hubel and Wiesel was based on their discovery of two types of cells in the primary visual cortex: simple cells and complex cells.[10]
+
+The first functional networks with many layers were published by Ivakhnenko and Lapa in 1965, becoming the Group Method of Data Handling.[11][12][13]
+
+Neural network research stagnated after machine learning research by Minsky and Papert (1969),[14] who discovered two key issues with the computational machines that processed neural networks. The first was that basic perceptrons were incapable of processing the exclusive-or circuit. The second was that computers didn't have enough processing power to effectively handle the work required by large neural networks. Neural network research slowed until computers achieved far greater processing power.
+
+Much of artificial intelligence had focused on high-level (symbolic) models that are processed by using algorithms, characterized for example by expert systems with knowledge embodied in if-then rules, until in the late 1980s research expanded to low-level (sub-symbolic) machine learning, characterized by knowledge embodied in the parameters of a cognitive model.[citation needed]
+
+Backpropagation
+A key trigger for renewed interest in neural networks and learning was Werbos's (1975) backpropagation algorithm that effectively solved the exclusive-or problem by making the training of multi-layer networks feasible and efficient. Backpropagation distributed the error term back up through the layers, by modifying the weights at each node.[9]
+
+In the mid-1980s, parallel distributed processing became popular under the name connectionism. Rumelhart and McClelland (1986) described the use of connectionism to simulate neural processes.[15]
+
+Support vector machines and other, much simpler methods such as linear classifiers gradually overtook neural networks in machine learning popularity. However, using neural networks transformed some domains, such as the prediction of protein structures.[16][17]
+
+In 1992, max-pooling was introduced to help with least shift invariance and tolerance to deformation to aid in 3D object recognition.[18][19][20] In 2010, Backpropagation training through max-pooling was accelerated by GPUs and shown to perform better than other pooling variants.[21]
+
+The vanishing gradient problem affects many-layered feedforward networks that used backpropagation and also recurrent neural networks (RNNs).[22][23] As errors propagate from layer to layer, they shrink exponentially with the number of layers, impeding the tuning of neuron weights that is based on those errors, particularly affecting deep networks.
+
+To overcome this problem, Schmidhuber adopted a multi-level hierarchy of networks (1992) pre-trained one level at a time by unsupervised learning and fine-tuned by backpropagation.[24] Behnke (2003) relied only on the sign of the gradient (Rprop)[25] on problems such as image reconstruction and face localization.
+
+Hinton et al. (2006) proposed learning a high-level representation using successive layers of binary or real-valued latent variables with a restricted Boltzmann machine[26] to model each layer. Once sufficiently many layers have been learned, the deep architecture may be used as a generative model by reproducing the data when sampling down the model (an "ancestral pass") from the top level feature activations.[27][28] In 2012, Ng and Dean created a network that learned to recognize higher-level concepts, such as cats, only from watching unlabeled images taken from YouTube videos.[29]
+
+Earlier challenges in training deep neural networks were successfully addressed with methods such as unsupervised pre-training, while available computing power increased through the use of GPUs and distributed computing. Neural networks were deployed on a large scale, particularly in image and visual recognition problems. This became known as "deep learning".[citation needed]
+
+Hardware-based designs
+Computational devices were created in CMOS, for both biophysical simulation and neuromorphic computing. Nanodevices[30] for very large scale principal components analyses and convolution may create a new class of neural computing because they are fundamentally analog rather than digital (even though the first implementations may use digital devices).[31] Ciresan and colleagues (2010)[32] in Schmidhuber's group showed that despite the vanishing gradient problem, GPUs makes back-propagation feasible for many-layered feedforward neural networks.
+
+Contests
+Between 2009 and 2012, recurrent neural networks and deep feedforward neural networks developed in Schmidhuber's research group won eight international competitions in pattern recognition and machine learning.[33][34] For example, the bi-directional and multi-dimensional long short-term memory (LSTM)[35][36][37][38] of Graves et al. won three competitions in connected handwriting recognition at the 2009 International Conference on Document Analysis and Recognition (ICDAR), without any prior knowledge about the three languages to be learned.[37][36]
+
+Ciresan and colleagues won pattern recognition contests, including the IJCNN 2011 Traffic Sign Recognition Competition,[39] the ISBI 2012 Segmentation of Neuronal Structures in Electron Microscopy Stacks challenge[40] and others. Their neural networks were the first pattern recognizers to achieve human-competitive or even superhuman performance[41] on benchmarks such as traffic sign recognition (IJCNN 2012), or the MNIST handwritten digits problem.
+
+Researchers demonstrated (2010) that deep neural networks interfaced to a hidden Markov model with context-dependent states that define the neural network output layer can drastically reduce errors in large-vocabulary speech recognition tasks such as voice search.
+
+GPU-based implementations[42] of this approach won many pattern recognition contests, including the IJCNN 2011 Traffic Sign Recognition Competition,[39] the ISBI 2012 Segmentation of neuronal structures in EM stacks challenge,[40] the ImageNet Competition[43] and others.
+
+Deep, highly nonlinear neural architectures similar to the neocognitron[44] and the "standard architecture of vision",[45] inspired by simple and complex cells, were pre-trained by unsupervised methods by Hinton.[46][27] A team from his lab won a 2012 contest sponsored by Merck to design software to help find molecules that might identify new drugs.[47]
+
+Convolutional networks
+As of 2011, the state of the art in deep learning feedforward networks alternated between convolutional layers and max-pooling layers,[42][48] topped by several fully or sparsely connected layers followed by a final classification layer. Learning is usually done without unsupervised pre-training. In the convolutional layer, there are filters that are convolved with the input. Each filter is equivalent to a weights vector that has to be trained.
+
+Such supervised deep learning methods were the first to achieve human-competitive performance on certain tasks.[41]
+
+Artificial neural networks were able to guarantee shift invariance to deal with small and large natural objects in large cluttered scenes, only when invariance extended beyond shift, to all ANN-learned concepts, such as location, type (object class label), scale, lighting and others. This was realized in Developmental Networks (DNs)[49] whose embodiments are Where-What Networks, WWN-1 (2008)[50] through WWN-7 (2013).[51]
+
+Models
+
+This section may be confusing or unclear to readers. Please help us clarify the section. There might be a discussion about this on the talk page. (April 2017) (Learn how and when to remove this template message)
+
+Neuron and myelinated axon, with signal flow from inputs at dendrites to outputs at axon terminals
+An artificial neural network is a network of simple elements called artificial neurons, which receive input, change their internal state (activation) according to that input, and produce output depending on the input and activation.
+
+An artificial neuron mimics the working of a biophysical neuron with inputs and outputs, but is not a biological neuron model.
+
+The network forms by connecting the output of certain neurons to the input of other neurons forming a directed, weighted graph. The weights as well as the functions that compute the activation can be modified by a process called learning which is governed by a learning rule.[52]
+
+Components of an artificial neural network
+Neurons
+A neuron with label {\displaystyle j} j receiving an input {\displaystyle p_{j}(t)} {\displaystyle p_{j}(t)} from predecessor neurons consists of the following components:[52]
+
+an activation {\displaystyle a_{j}(t)} {\displaystyle a_{j}(t)}, the neuron's state, depending on a discrete time parameter,
+possibly a threshold {\displaystyle \theta _{j}} \theta _{j}, which stays fixed unless changed by a learning function,
+an activation function {\displaystyle f} f that computes the new activation at a given time {\displaystyle t+1} t+1 from {\displaystyle a_{j}(t)} {\displaystyle a_{j}(t)}, {\displaystyle \theta _{j}} \theta _{j} and the net input {\displaystyle p_{j}(t)} {\displaystyle p_{j}(t)} giving rise to the relation
+{\displaystyle a_{j}(t+1)=f(a_{j}(t),p_{j}(t),\theta _{j})} {\displaystyle a_{j}(t+1)=f(a_{j}(t),p_{j}(t),\theta _{j})},
+and an output function {\displaystyle f_{out}} {\displaystyle f_{out}} computing the output from the activation
+{\displaystyle o_{j}(t)=f_{out}(a_{j}(t))} {\displaystyle o_{j}(t)=f_{out}(a_{j}(t))}.
+Often the output function is simply the Identity function.
+
+An input neuron has no predecessor but serves as input interface for the whole network. Similarly an output neuron has no successor and thus serves as output interface of the whole network.
+
+Connections, weights and biases
+The network consists of connections, each connection transferring the output of a neuron {\displaystyle i} i to the input of a neuron {\displaystyle j} j. In this sense {\displaystyle i} i is the predecessor of {\displaystyle j} j and {\displaystyle j} j is the successor of {\displaystyle i} i. Each connection is assigned a weight {\displaystyle w_{ij}} w_{ij}.[52] Sometimes a bias term added to total weighted sum of inputs to serve as threshold to shift the activation function.[53]
+
+Propagation function
+The propagation function computes the input {\displaystyle p_{j}(t)} {\displaystyle p_{j}(t)} to the neuron {\displaystyle j} j from the outputs {\displaystyle o_{i}(t)} {\displaystyle o_{i}(t)} of predecessor neurons and typically has the form[52]
+
+{\displaystyle p_{j}(t)=\sum _{i}o_{i}(t)w_{ij}} {\displaystyle p_{j}(t)=\sum _{i}o_{i}(t)w_{ij}}.
+When a bias value added with the function, the above form changes to following [54]
+
+{\displaystyle p_{j}(t)=\sum _{i}o_{i}(t)w_{ij}+w_{0j}} {\displaystyle p_{j}(t)=\sum _{i}o_{i}(t)w_{ij}+w_{0j}} , where {\displaystyle w_{0j}} {\displaystyle w_{0j}} is a bias.
+Learning rule
+The learning rule is a rule or an algorithm which modifies the parameters of the neural network, in order for a given input to the network to produce a favored output. This learning process typically amounts to modifying the weights and thresholds of the variables within the network.[52]
+
+Neural networks as functions
+See also: Graphical models
+Neural network models can be viewed as simple mathematical models defining a function {\displaystyle \textstyle f:X\rightarrow Y} {\displaystyle \textstyle f:X\rightarrow Y} or a distribution over {\displaystyle \textstyle X} \textstyle X or both {\displaystyle \textstyle X} \textstyle X and {\displaystyle \textstyle Y} \textstyle Y. Sometimes models are intimately associated with a particular learning rule. A common use of the phrase "ANN model" is really the definition of a class of such functions (where members of the class are obtained by varying parameters, connection weights, or specifics of the architecture such as the number of neurons or their connectivity).
+
+Mathematically, a neuron's network function {\displaystyle \textstyle f(x)} \textstyle f(x) is defined as a composition of other functions {\displaystyle \textstyle g_{i}(x)} \textstyle g_{i}(x), that can further be decomposed into other functions. This can be conveniently represented as a network structure, with arrows depicting the dependencies between functions. A widely used type of composition is the nonlinear weighted sum, where {\displaystyle \textstyle f(x)=K\left(\sum _{i}w_{i}g_{i}(x)\right)} \textstyle f(x)=K\left(\sum _{i}w_{i}g_{i}(x)\right), where {\displaystyle \textstyle K} \textstyle K (commonly referred to as the activation function[55]) is some predefined function, such as the hyperbolic tangent or sigmoid function or softmax function or rectifier function. The important characteristic of the activation function is that it provides a smooth transition as input values change, i.e. a small change in input produces a small change in output. The following refers to a collection of functions {\displaystyle \textstyle g_{i}} \textstyle g_{i} as a vector {\displaystyle \textstyle g=(g_{1},g_{2},\ldots ,g_{n})} \textstyle g=(g_{1},g_{2},\ldots ,g_{n}).
+
+
+ANN dependency graph
+This figure depicts such a decomposition of {\displaystyle \textstyle f} \textstyle f, with dependencies between variables indicated by arrows. These can be interpreted in two ways.
+
+The first view is the functional view: the input {\displaystyle \textstyle x} \textstyle x is transformed into a 3-dimensional vector {\displaystyle \textstyle h} \textstyle h, which is then transformed into a 2-dimensional vector {\displaystyle \textstyle g} \textstyle g, which is finally transformed into {\displaystyle \textstyle f} \textstyle f. This view is most commonly encountered in the context of optimization.
+
+The second view is the probabilistic view: the random variable {\displaystyle \textstyle F=f(G)} \textstyle F=f(G) depends upon the random variable {\displaystyle \textstyle G=g(H)} \textstyle G=g(H), which depends upon {\displaystyle \textstyle H=h(X)} \textstyle H=h(X), which depends upon the random variable {\displaystyle \textstyle X} \textstyle X. This view is most commonly encountered in the context of graphical models.
+
+The two views are largely equivalent. In either case, for this particular architecture, the components of individual layers are independent of each other (e.g., the components of {\displaystyle \textstyle g} \textstyle g are independent of each other given their input {\displaystyle \textstyle h} \textstyle h). This naturally enables a degree of parallelism in the implementation.
+
+
+Two separate depictions of the recurrent ANN dependency graph
+Networks such as the previous one are commonly called feedforward, because their graph is a directed acyclic graph. Networks with cycles are commonly called recurrent. Such networks are commonly depicted in the manner shown at the top of the figure, where {\displaystyle \textstyle f} \textstyle f is shown as being dependent upon itself. However, an implied temporal dependence is not shown.
+
+Learning
+See also: Mathematical optimization, Estimation theory, and Machine learning
+The possibility of learning has attracted the most interest in neural networks. Given a specific task to solve, and a class of functions {\displaystyle \textstyle F} \textstyle F, learning means using a set of observations to find {\displaystyle \textstyle f^{*}\in F} \textstyle f^{*}\in F which solves the task in some optimal sense.
+
+This entails defining a cost function {\displaystyle \textstyle C:F\rightarrow \mathbb {R} } \textstyle C:F\rightarrow \mathbb {R}  such that, for the optimal solution {\displaystyle \textstyle f^{*}} \textstyle f^{*}, {\displaystyle \textstyle C(f^{*})\leq C(f)} \textstyle C(f^{*})\leq C(f) {\displaystyle \textstyle \forall f\in F} \textstyle \forall f\in F – i.e., no solution has a cost less than the cost of the optimal solution (see mathematical optimization).
+
+The cost function {\displaystyle \textstyle C} \textstyle C is an important concept in learning, as it is a measure of how far away a particular solution is from an optimal solution to the problem to be solved. Learning algorithms search through the solution space to find a function that has the smallest possible cost.
+
+For applications where the solution is data dependent, the cost must necessarily be a function of the observations, otherwise the model would not relate to the data. It is frequently defined as a statistic to which only approximations can be made. As a simple example, consider the problem of finding the model {\displaystyle \textstyle f} \textstyle f, which minimizes {\displaystyle \textstyle C=E\left[(f(x)-y)^{2}\right]} \textstyle C=E\left[(f(x)-y)^{2}\right], for data pairs {\displaystyle \textstyle (x,y)} \textstyle (x,y) drawn from some distribution {\displaystyle \textstyle {\mathcal {D}}} \textstyle {\mathcal {D}}. In practical situations we would only have {\displaystyle \textstyle N} \textstyle N samples from {\displaystyle \textstyle {\mathcal {D}}} \textstyle {\mathcal {D}} and thus, for the above example, we would only minimize {\displaystyle \textstyle {\hat {C}}={\frac {1}{N}}\sum _{i=1}^{N}(f(x_{i})-y_{i})^{2}} \textstyle {\hat {C}}={\frac {1}{N}}\sum _{i=1}^{N}(f(x_{i})-y_{i})^{2}. Thus, the cost is minimized over a sample of the data rather than the entire distribution.
+
+When {\displaystyle \textstyle N\rightarrow \infty } \textstyle N\rightarrow \infty  some form of online machine learning must be used, where the cost is reduced as each new example is seen. While online machine learning is often used when {\displaystyle \textstyle {\mathcal {D}}} \textstyle {\mathcal {D}} is fixed, it is most useful in the case where the distribution changes slowly over time. In neural network methods, some form of online machine learning is frequently used for finite datasets.
+
+Choosing a cost function
+While it is possible to define an ad hoc cost function, frequently a particular cost (function) is used, either because it has desirable properties (such as convexity) or because it arises naturally from a particular formulation of the problem (e.g., in a probabilistic formulation the posterior probability of the model can be used as an inverse cost). Ultimately, the cost function depends on the task.
+
+Backpropagation
+Main article: Backpropagation
+A DNN can be discriminatively trained with the standard backpropagation algorithm. Backpropagation is a method to calculate the gradient of the loss function (produces the cost associated with a given state) with respect to the weights in an ANN.
+
+The basics of continuous backpropagation[11][56][57][58] were derived in the context of control theory by Kelley[59] in 1960 and by Bryson in 1961,[60] using principles of dynamic programming. In 1962, Dreyfus published a simpler derivation based only on the chain rule.[61] Bryson and Ho described it as a multi-stage dynamic system optimization method in 1969.[62][63] In 1970, Linnainmaa finally published the general method for automatic differentiation (AD) of discrete connected networks of nested differentiable functions.[64][65] This corresponds to the modern version of backpropagation which is efficient even when the networks are sparse.[11][56][66][67] In 1973, Dreyfus used backpropagation to adapt parameters of controllers in proportion to error gradients.[68] In 1974, Werbos mentioned the possibility of applying this principle to Artificial neural networks,[69] and in 1982, he applied Linnainmaa's AD method to neural networks in the way that is widely used today.[56][70] In 1986, Rumelhart, Hinton and Williams noted that this method can generate useful internal representations of incoming data in hidden layers of neural networks.[71] In 1993, Wan was the first[11] to win an international pattern recognition contest through backpropagation.[72]
+
+The weight updates of backpropagation can be done via stochastic gradient descent using the following equation:
+
+{\displaystyle w_{ij}(t+1)=w_{ij}(t)+\eta {\frac {\partial C}{\partial w_{ij}}}+\xi (t)} {\displaystyle w_{ij}(t+1)=w_{ij}(t)+\eta {\frac {\partial C}{\partial w_{ij}}}+\xi (t)}
+where, {\displaystyle \eta } \eta  is the learning rate, {\displaystyle C} C is the cost (loss) function and {\displaystyle \xi (t)} \xi (t) a stochastic term. The choice of the cost function depends on factors such as the learning type (supervised, unsupervised, reinforcement, etc.) and the activation function. For example, when performing supervised learning on a multiclass classification problem, common choices for the activation function and cost function are the softmax function and cross entropy function, respectively. The softmax function is defined as {\displaystyle p_{j}={\frac {\exp(x_{j})}{\sum _{k}\exp(x_{k})}}} p_{j}={\frac {\exp(x_{j})}{\sum _{k}\exp(x_{k})}} where {\displaystyle p_{j}} p_{j} represents the class probability (output of the unit {\displaystyle j} j) and {\displaystyle x_{j}} x_{j} and {\displaystyle x_{k}} x_{k} represent the total input to units {\displaystyle j} j and {\displaystyle k} k of the same level respectively. Cross entropy is defined as {\displaystyle C=-\sum _{j}d_{j}\log(p_{j})} C=-\sum _{j}d_{j}\log(p_{j}) where {\displaystyle d_{j}} d_{j} represents the target probability for output unit {\displaystyle j} j and {\displaystyle p_{j}} p_{j} is the probability output for {\displaystyle j} j after applying the activation function.[73]
+
+These can be used to output object bounding boxes in the form of a binary mask. They are also used for multi-scale regression to increase localization precision. DNN-based regression can learn features that capture geometric information in addition to serving as a good classifier. They remove the requirement to explicitly model parts and their relations. This helps to broaden the variety of objects that can be learned. The model consists of multiple layers, each of which has a rectified linear unit as its activation function for non-linear transformation. Some layers are convolutional, while others are fully connected. Every convolutional layer has an additional max pooling. The network is trained to minimize L2 error for predicting the mask ranging over the entire training set containing bounding boxes represented as masks.
+
+Alternatives to backpropagation include Extreme Learning Machines,[74] "No-prop" networks,[75] training without backtracking,[76] "weightless" networks,[77][78] and non-connectionist neural networks.
+
+Learning paradigms
+The three major learning paradigms each correspond to a particular learning task. These are supervised learning, unsupervised learning and reinforcement learning.
+
+Supervised learning
+Supervised learning uses a set of example pairs {\displaystyle (x,y),x\in X,y\in Y}  (x, y), x \in X, y \in Y and the aim is to find a function {\displaystyle f:X\rightarrow Y}  f : X \rightarrow Y  in the allowed class of functions that matches the examples. In other words, we wish to infer the mapping implied by the data; the cost function is related to the mismatch between our mapping and the data and it implicitly contains prior knowledge about the problem domain.[79]
+
+A commonly used cost is the mean-squared error, which tries to minimize the average squared error between the network's output, {\displaystyle f(x)} f(x), and the target value {\displaystyle y} y over all the example pairs. Minimizing this cost using gradient descent for the class of neural networks called multilayer perceptrons (MLP), produces the backpropagation algorithm for training neural networks.
+
+Tasks that fall within the paradigm of supervised learning are pattern recognition (also known as classification) and regression (also known as function approximation). The supervised learning paradigm is also applicable to sequential data (e.g., for hand writing, speech and gesture recognition). This can be thought of as learning with a "teacher", in the form of a function that provides continuous feedback on the quality of solutions obtained thus far.
+
+Unsupervised learning
+In unsupervised learning, some data {\displaystyle \textstyle x} \textstyle x is given and the cost function to be minimized, that can be any function of the data {\displaystyle \textstyle x} \textstyle x and the network's output, {\displaystyle \textstyle f} \textstyle f.
+
+The cost function is dependent on the task (the model domain) and any a priori assumptions (the implicit properties of the model, its parameters and the observed variables).
+
+As a trivial example, consider the model {\displaystyle \textstyle f(x)=a} \textstyle f(x)=a where {\displaystyle \textstyle a} \textstyle a is a constant and the cost {\displaystyle \textstyle C=E[(x-f(x))^{2}]} \textstyle C=E[(x-f(x))^{2}]. Minimizing this cost produces a value of {\displaystyle \textstyle a} \textstyle a that is equal to the mean of the data. The cost function can be much more complicated. Its form depends on the application: for example, in compression it could be related to the mutual information between {\displaystyle \textstyle x} \textstyle x and {\displaystyle \textstyle f(x)} \textstyle f(x), whereas in statistical modeling, it could be related to the posterior probability of the model given the data (note that in both of those examples those quantities would be maximized rather than minimized).
+
+Tasks that fall within the paradigm of unsupervised learning are in general estimation problems; the applications include clustering, the estimation of statistical distributions, compression and filtering.
+
+Reinforcement learning
+See also: Stochastic control
+In reinforcement learning, data {\displaystyle \textstyle x} \textstyle x are usually not given, but generated by an agent's interactions with the environment. At each point in time {\displaystyle \textstyle t} \textstyle t, the agent performs an action {\displaystyle \textstyle y_{t}} \textstyle y_{t} and the environment generates an observation {\displaystyle \textstyle x_{t}} \textstyle x_{t} and an instantaneous cost {\displaystyle \textstyle c_{t}} \textstyle c_{t}, according to some (usually unknown) dynamics. The aim is to discover a policy for selecting actions that minimizes some measure of a long-term cost, e.g., the expected cumulative cost. The environment's dynamics and the long-term cost for each policy are usually unknown, but can be estimated.
+
+More formally the environment is modeled as a Markov decision process (MDP) with states {\displaystyle \textstyle {s_{1},...,s_{n}}\in S} \textstyle {s_{1},...,s_{n}}\in S and actions {\displaystyle \textstyle {a_{1},...,a_{m}}\in A} \textstyle {a_{1},...,a_{m}}\in A with the following probability distributions: the instantaneous cost distribution {\displaystyle \textstyle P(c_{t}|s_{t})} \textstyle P(c_{t}|s_{t}), the observation distribution {\displaystyle \textstyle P(x_{t}|s_{t})} \textstyle P(x_{t}|s_{t}) and the transition {\displaystyle \textstyle P(s_{t+1}|s_{t},a_{t})} \textstyle P(s_{t+1}|s_{t},a_{t}), while a policy is defined as the conditional distribution over actions given the observations. Taken together, the two then define a Markov chain (MC). The aim is to discover the policy (i.e., the MC) that minimizes the cost.
+
+Artificial neural networks are frequently used in reinforcement learning as part of the overall algorithm.[80][81] Dynamic programming was coupled with Artificial neural networks (giving neurodynamic programming) by Bertsekas and Tsitsiklis[82] and applied to multi-dimensional nonlinear problems such as those involved in vehicle routing,[83] natural resources management[84][85] or medicine[86] because of the ability of Artificial neural networks to mitigate losses of accuracy even when reducing the discretization grid density for numerically approximating the solution of the original control problems.
+
+Tasks that fall within the paradigm of reinforcement learning are control problems, games and other sequential decision making tasks.
+
+Learning algorithms
+See also: Machine learning
+Training a neural network model essentially means selecting one model from the set of allowed models (or, in a Bayesian framework, determining a distribution over the set of allowed models) that minimizes the cost. Numerous algorithms are available for training neural network models; most of them can be viewed as a straightforward application of optimization theory and statistical estimation.
+
+Most employ some form of gradient descent, using backpropagation to compute the actual gradients. This is done by simply taking the derivative of the cost function with respect to the network parameters and then changing those parameters in a gradient-related direction. Backpropagation training algorithms fall into three categories:
+
+steepest descent (with variable learning rate and momentum, resilient backpropagation);
+quasi-Newton (Broyden-Fletcher-Goldfarb-Shanno, one step secant);
+Levenberg-Marquardt and conjugate gradient (Fletcher-Reeves update, Polak-Ribiére update, Powell-Beale restart, scaled conjugate gradient).[87]
+Evolutionary methods,[88] gene expression programming,[89] simulated annealing,[90] expectation-maximization, non-parametric methods and particle swarm optimization[91] are other methods for training neural networks.
+
+Convergent recursive learning algorithm
+This is a learning method specially designed for cerebellar model articulation controller (CMAC) neural networks. In 2004, a recursive least squares algorithm was introduced to train CMAC neural network online.[92] This algorithm can converge in one step and update all weights in one step with any new input data. Initially, this algorithm had computational complexity of O(N3). Based on QR decomposition, this recursive learning algorithm was simplified to be O(N).[93]

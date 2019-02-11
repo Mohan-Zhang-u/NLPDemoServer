@@ -9,10 +9,10 @@ import time
 import codecs
 import os
 import json
+import sys
 
 import CreateSearchBase
 import AnswerTheQuestion
-
 
 UPLOAD_FOLDER = 'UploadFolder'
 ALLOWED_EXTENSIONS = set(['txt', 'zip'])
@@ -51,6 +51,7 @@ def upload_file():
         if file and allowed_file(file.filename):
             filename = secure_filename(file.filename)
             file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
+
             CreateSearchBase.main_func(768, True)
 
             # runstring = "./run.sh"
@@ -81,7 +82,7 @@ def PostInputTextTask():
     if list(predictDict.values())[0] == "empty":
         return "Sorry, the model is not able to find an answer to the question in the uploaded corpus."
     else:
-        return predictDict
+        return str(predictDict)
 
     # ctime = str(int(round(time.time() * 1000)))
     # runstring = "./AnswerTheQuestion.sh \"" + file_text + "\""
