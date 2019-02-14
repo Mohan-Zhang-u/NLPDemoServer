@@ -1,7 +1,8 @@
 {
-  "public_ip_address": "http://52.229.18.233",
+  "public_ip_address": "http://13.66.190.14",
   "IndexPagePort": 6001,
   "SummarizationPort": 6505,
   "QAPort" : 6503,
-  "BERTPort" : 6504
+  "BERTPort" : 6504,
+  "BioBERTPort" : 6506
 }

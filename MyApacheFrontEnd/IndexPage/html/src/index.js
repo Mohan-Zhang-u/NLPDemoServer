@@ -8,6 +8,7 @@ $.getJSON("./src/config.json", function (json) {
     $("a[href='https://sentiment-address']").attr("href", AppConfig.public_ip_address + ":" + AppConfig.IndexPagePort + "/sentiment.html");
     $("a[href='https://similarity-address']").attr("href", AppConfig.public_ip_address + ":" + AppConfig.IndexPagePort + "/similarity.html");
     $("a[href='https://entailment-address']").attr("href", AppConfig.public_ip_address + ":" + AppConfig.IndexPagePort + "/entailment.html");
+    $("a[href='https://biobertindex-address']").attr("href", AppConfig.public_ip_address + ":" + AppConfig.IndexPagePort + "/biobertindex.html");
     $("a[href='https://questioninference-address']").attr("href", AppConfig.public_ip_address + ":" + AppConfig.IndexPagePort + "/questioninference.html");
     $("a[href='https://questionsimilarity-address']").attr("href", AppConfig.public_ip_address + ":" + AppConfig.IndexPagePort + "/questionsimilarity.html");
 })
@@ -20,6 +21,7 @@ $(document).ready(function () {
     $("a[href='https://sentiment-address']").attr("href", AppConfig.public_ip_address + ":" + AppConfig.IndexPagePort + "/sentiment.html");
     $("a[href='https://similarity-address']").attr("href", AppConfig.public_ip_address + ":" + AppConfig.IndexPagePort + "/similarity.html");
     $("a[href='https://entailment-address']").attr("href", AppConfig.public_ip_address + ":" + AppConfig.IndexPagePort + "/entailment.html");
+    $("a[href='https://biobertindex-address']").attr("href", AppConfig.public_ip_address + ":" + AppConfig.IndexPagePort + "/biobertindex.html");
     $("a[href='https://questioninference-address']").attr("href", AppConfig.public_ip_address + ":" + AppConfig.IndexPagePort + "/questioninference.html");
     $("a[href='https://questionsimilarity-address']").attr("href", AppConfig.public_ip_address + ":" + AppConfig.IndexPagePort + "/questionsimilarity.html");
 });

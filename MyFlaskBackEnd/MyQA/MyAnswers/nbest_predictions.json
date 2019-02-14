@@ -1,368 +1,368 @@
 {
     "0": [
         {
-            "text": "recognizing handwritten ZIP codes on mail",
-            "probability": 0.6267808701429671,
-            "start_logit": 6.341018199920654,
-            "end_logit": 6.742390155792236
+            "text": "multiplayer online battle arena",
+            "probability": 0.36820537510253176,
+            "start_logit": 8.013239860534668,
+            "end_logit": 6.965151786804199
         },
         {
-            "text": "recognizing handwritten ZIP codes on mail.",
-            "probability": 0.1142807207424612,
-            "start_logit": 6.341018199920654,
-            "end_logit": 5.0404510498046875
+            "text": "multiplayer online battle arena (MOBA)",
+            "probability": 0.2787058708445215,
+            "start_logit": 8.013239860534668,
+            "end_logit": 6.6866679191589355
         },
         {
-            "text": "the purpose of recognizing handwritten ZIP codes on mail",
-            "probability": 0.07017350185031954,
-            "start_logit": 4.151391983032227,
-            "end_logit": 6.742390155792236
+            "text": "a multiplayer online battle arena",
+            "probability": 0.12164789643563763,
+            "start_logit": 6.9057297706604,
+            "end_logit": 6.965151786804199
         },
         {
-            "text": "purpose of recognizing handwritten ZIP codes on mail",
-            "probability": 0.05589258427205891,
-            "start_logit": 3.9238529205322266,
-            "end_logit": 6.742390155792236
+            "text": "a multiplayer online battle arena (MOBA)",
+            "probability": 0.09207900048460053,
+            "start_logit": 6.9057297706604,
+            "end_logit": 6.6866679191589355
         },
         {
-            "text": "with the purpose of recognizing handwritten ZIP codes on mail",
-            "probability": 0.03633550290677758,
-            "start_logit": 3.4932165145874023,
-            "end_logit": 6.742390155792236
+            "text": "multiplayer online battle arena (MOBA) video game",
+            "probability": 0.044151535362601836,
+            "start_logit": 8.013239860534668,
+            "end_logit": 4.8441386222839355
         },
         {
-            "text": "recognizing handwritten ZIP codes",
-            "probability": 0.01571799466360953,
-            "start_logit": 6.341018199920654,
-            "end_logit": 3.0565993785858154
+            "text": "a multiplayer online battle arena (MOBA) video game",
+            "probability": 0.014586808787809167,
+            "start_logit": 6.9057297706604,
+            "end_logit": 4.8441386222839355
         },
         {
-            "text": "handwritten ZIP codes on mail",
-            "probability": 0.015045257736450365,
-            "start_logit": 2.6114840507507324,
-            "end_logit": 6.742390155792236
+            "text": "online battle arena",
+            "probability": 0.012171647524164187,
+            "start_logit": 4.603708267211914,
+            "end_logit": 6.965151786804199
         },
         {
-            "text": "dropout",
-            "probability": 0.0144632197463259,
-            "start_logit": 4.715043544769287,
-            "end_logit": 4.599376678466797
+            "text": "multiplayer online battle arena (MOBA",
+            "probability": 0.011886083557649592,
+            "start_logit": 8.013239860534668,
+            "end_logit": 3.531879186630249
         },
         {
-            "text": "the purpose of recognizing handwritten ZIP codes on mail.",
-            "probability": 0.012794708247314136,
-            "start_logit": 4.151391983032227,
-            "end_logit": 5.0404510498046875
+            "text": "battle arena",
+            "probability": 0.01112737818717054,
+            "start_logit": 4.514007568359375,
+            "end_logit": 6.965151786804199
         },
         {
-            "text": "purpose of recognizing handwritten ZIP codes on mail.",
-            "probability": 0.010190873906717485,
-            "start_logit": 3.9238529205322266,
-            "end_logit": 5.0404510498046875
+            "text": "online battle arena (MOBA)",
+            "probability": 0.009213090987305952,
+            "start_logit": 4.603708267211914,
+            "end_logit": 6.6866679191589355
         },
         {
-            "text": "deep neural network with the purpose of recognizing handwritten ZIP codes on mail",
-            "probability": 0.0073848859826113,
-            "start_logit": 1.899856686592102,
-            "end_logit": 6.742390155792236
+            "text": "battle arena (MOBA)",
+            "probability": 0.008422651698140226,
+            "start_logit": 4.514007568359375,
+            "end_logit": 6.6866679191589355
         },
         {
-            "text": "with the purpose of recognizing handwritten ZIP codes on mail.",
-            "probability": 0.006625038603649746,
-            "start_logit": 3.4932165145874023,
-            "end_logit": 5.0404510498046875
+            "text": "multiplayer online battle arena (MOBA) video game developed and published by Valve Corporation. The game is a sequel to Defense of the Ancients",
+            "probability": 0.006243672088647423,
+            "start_logit": 8.013239860534668,
+            "end_logit": 2.8880794048309326
         },
         {
-            "text": "a deep neural network with the purpose of recognizing handwritten ZIP codes on mail",
-            "probability": 0.002864911596333489,
-            "start_logit": 0.9529587030410767,
-            "end_logit": 6.742390155792236
+            "text": "MOBA)",
+            "probability": 0.005235884052124491,
+            "start_logit": 4.038618564605713,
+            "end_logit": 6.6866679191589355
         },
         {
-            "text": "handwritten ZIP codes on mail.",
-            "probability": 0.002743196194685156,
-            "start_logit": 2.6114840507507324,
-            "end_logit": 5.0404510498046875
+            "text": "a multiplayer online battle arena (MOBA",
+            "probability": 0.003926930890793372,
+            "start_logit": 6.9057297706604,
+            "end_logit": 3.531879186630249
         },
         {
-            "text": "ZIP codes on mail",
-            "probability": 0.001863170555763857,
-            "start_logit": 0.522700846195221,
-            "end_logit": 6.742390155792236
+            "text": "multiplayer online battle arena (MOBA) video game developed and published by Valve Corporation.",
+            "probability": 0.0037994969447715525,
+            "start_logit": 8.013239860534668,
+            "end_logit": 2.3913795948028564
         },
         {
-            "text": "the purpose of recognizing handwritten ZIP codes",
-            "probability": 0.0017597645048715793,
-            "start_logit": 4.151391983032227,
-            "end_logit": 3.0565993785858154
+            "text": "Dota 2 is a multiplayer online battle arena",
+            "probability": 0.0021287701733364106,
+            "start_logit": 2.8601434230804443,
+            "end_logit": 6.965151786804199
         },
         {
-            "text": "dropout as regularizer",
-            "probability": 0.0014244801003688904,
-            "start_logit": 4.715043544769287,
-            "end_logit": 2.2815747261047363
+            "text": "a multiplayer online battle arena (MOBA) video game developed and published by Valve Corporation. The game is a sequel to Defense of the Ancients",
+            "probability": 0.0020627878542141373,
+            "start_logit": 6.9057297706604,
+            "end_logit": 2.8880794048309326
         },
         {
-            "text": "purpose of recognizing handwritten ZIP codes",
-            "probability": 0.0014016371321657918,
-            "start_logit": 3.9238529205322266,
-            "end_logit": 3.0565993785858154
+            "text": "Dota 2 is a multiplayer online battle arena (MOBA)",
+            "probability": 0.001611331026393503,
+            "start_logit": 2.8601434230804443,
+            "end_logit": 6.6866679191589355
         },
         {
-            "text": "deep neural network with the purpose of recognizing handwritten ZIP codes on mail.",
-            "probability": 0.0013464834887210507,
-            "start_logit": 1.899856686592102,
-            "end_logit": 5.0404510498046875
+            "text": "online battle arena (MOBA) video game",
+            "probability": 0.0014595032077807518,
+            "start_logit": 4.603708267211914,
+            "end_logit": 4.8441386222839355
         },
         {
-            "text": "with the purpose of recognizing handwritten ZIP codes",
-            "probability": 0.0009111976258273922,
-            "start_logit": 3.4932165145874023,
-            "end_logit": 3.0565993785858154
+            "text": "battle arena (MOBA) video game",
+            "probability": 0.0013342847898054119,
+            "start_logit": 4.514007568359375,
+            "end_logit": 4.8441386222839355
         }
     ],
     "1": [
         {
-            "text": "computational model for neural networks based on mathematics and algorithms called threshold logic",
-            "probability": 0.13864780621901882,
-            "start_logit": -0.3235866129398346,
-            "end_logit": 0.173622727394104
+            "text": "professional Dota 2 matches are streamed live over the internet",
+            "probability": 0.3488963779297782,
+            "start_logit": 2.214832305908203,
+            "end_logit": 0.9446985125541687
         },
         {
-            "text": "artificial intelligence",
-            "probability": 0.11985933400860084,
-            "start_logit": -0.970313310623169,
-            "end_logit": 0.6747313141822815
+            "text": "Broadcasts of professional Dota 2 matches are streamed live over the internet",
+            "probability": 0.1554503725144099,
+            "start_logit": 1.4063838720321655,
+            "end_logit": 0.9446985125541687
         },
         {
-            "text": "artificial neural network",
-            "probability": 0.1152879643802991,
-            "start_logit": 0.41490474343299866,
-            "end_logit": -0.7493725419044495
+            "text": "professional Dota 2 matches are streamed live over the internet, and sometimes simulcast on television networks",
+            "probability": 0.07156763958077864,
+            "start_logit": 2.214832305908203,
+            "end_logit": -0.6394334435462952
         },
         {
-            "text": "biological processes in the brain while the other focused on the application of neural networks to artificial intelligence",
-            "probability": 0.06297741633434294,
-            "start_logit": -1.6138559579849243,
-            "end_logit": 0.6747313141822815
+            "text": "professional Dota 2 matches",
+            "probability": 0.06835266940568775,
+            "start_logit": 2.214832305908203,
+            "end_logit": -0.6853958368301392
         },
         {
-            "text": "a computational model for neural networks based on mathematics and algorithms called threshold logic",
-            "probability": 0.05767393156470197,
-            "start_logit": -1.2007182836532593,
-            "end_logit": 0.173622727394104
+            "text": "streamed live over the internet",
+            "probability": 0.061151320067905135,
+            "start_logit": 0.4734087884426117,
+            "end_logit": 0.9446985125541687
         },
         {
-            "text": "computational model",
-            "probability": 0.057097362941364645,
-            "start_logit": -0.3235866129398346,
-            "end_logit": -0.7135562896728516
+            "text": "professional Dota 2 matches are streamed live",
+            "probability": 0.03507131681729114,
+            "start_logit": 2.214832305908203,
+            "end_logit": -1.3526928424835205
         },
         {
-            "text": "based on mathematics and algorithms called threshold logic",
-            "probability": 0.047867541671632645,
-            "start_logit": -1.3870859146118164,
-            "end_logit": 0.173622727394104
+            "text": "live over the internet",
+            "probability": 0.03397701805791536,
+            "start_logit": -0.1142583042383194,
+            "end_logit": 0.9446985125541687
         },
         {
-            "text": "computational model for neural networks",
-            "probability": 0.042026336403620565,
-            "start_logit": -0.3235866129398346,
-            "end_logit": -1.0200177431106567
+            "text": "Broadcasts of professional Dota 2 matches are streamed live over the internet, and sometimes simulcast on television networks",
+            "probability": 0.031886877986014014,
+            "start_logit": 1.4063838720321655,
+            "end_logit": -0.6394334435462952
         },
         {
-            "text": "computational model for neural networks based on mathematics and algorithms",
-            "probability": 0.038965459089697195,
-            "start_logit": -0.3235866129398346,
-            "end_logit": -1.095638632774353
+            "text": "professional Dota 2 matches are streamed live over the internet,",
+            "probability": 0.030675396476669527,
+            "start_logit": 2.214832305908203,
+            "end_logit": -1.486615538597107
         },
         {
-            "text": "focused on biological processes in the brain while the other focused on the application of neural networks to artificial intelligence",
-            "probability": 0.03604366649466691,
-            "start_logit": -2.171900987625122,
-            "end_logit": 0.6747313141822815
+            "text": "Broadcasts of professional Dota 2 matches",
+            "probability": 0.03045445179028782,
+            "start_logit": 1.4063838720321655,
+            "end_logit": -0.6853958368301392
         },
         {
-            "text": "artificial neural network 2.2 Neural networks as functions",
-            "probability": 0.0348228840928455,
-            "start_logit": 0.41490474343299866,
-            "end_logit": -1.946530818939209
+            "text": "professional Dota 2",
+            "probability": 0.028470068430454305,
+            "start_logit": 2.214832305908203,
+            "end_logit": -1.5612231492996216
         },
         {
-            "text": "neural networks to artificial intelligence",
-            "probability": 0.03431224388218355,
-            "start_logit": -2.221129894256592,
-            "end_logit": 0.6747313141822815
+            "text": "Broadcasts of professional Dota 2 matches are streamed live",
+            "probability": 0.01562598412791801,
+            "start_logit": 1.4063838720321655,
+            "end_logit": -1.3526928424835205
         },
         {
-            "text": "artificial neural network 2.2 Neural networks",
-            "probability": 0.03417379502077867,
-            "start_logit": 0.41490474343299866,
-            "end_logit": -1.9653464555740356
+            "text": "matches are streamed live over the internet",
+            "probability": 0.013789045060225163,
+            "start_logit": -1.0160682201385498,
+            "end_logit": 0.9446985125541687
         },
         {
-            "text": "Components of an artificial neural network",
-            "probability": 0.029600011963402558,
-            "start_logit": -0.9447535276412964,
-            "end_logit": -0.7493725419044495
+            "text": "Broadcasts of professional Dota 2 matches are streamed live over the internet,",
+            "probability": 0.013667386969219968,
+            "start_logit": 1.4063838720321655,
+            "end_logit": -1.486615538597107
         },
         {
-            "text": "application of neural networks to artificial intelligence",
-            "probability": 0.028757358792764347,
-            "start_logit": -2.397738456726074,
-            "end_logit": 0.6747313141822815
+            "text": "Broadcasts of professional Dota 2",
+            "probability": 0.012684805641391938,
+            "start_logit": 1.4063838720321655,
+            "end_logit": -1.5612231492996216
         },
         {
-            "text": "neural networks based on mathematics and algorithms called threshold logic",
-            "probability": 0.02559226453457332,
-            "start_logit": -2.0132334232330322,
-            "end_logit": 0.173622727394104
+            "text": "streamed live over the internet, and sometimes simulcast on television networks",
+            "probability": 0.012543711862177925,
+            "start_logit": 0.4734087884426117,
+            "end_logit": -0.6394334435462952
         },
         {
-            "text": "threshold logic",
-            "probability": 0.025410861036188833,
-            "start_logit": -2.0203468799591064,
-            "end_logit": 0.173622727394104
+            "text": "professional Dota 2 matches are streamed live over the internet, and sometimes simulcast on television networks,",
+            "probability": 0.010683916084913687,
+            "start_logit": 2.214832305908203,
+            "end_logit": -2.541337013244629
         },
         {
-            "text": "a computational model",
-            "probability": 0.02375103863961101,
-            "start_logit": -1.2007182836532593,
-            "end_logit": -0.7135562896728516
+            "text": "professional",
+            "probability": 0.009743446952928662,
+            "start_logit": 2.214832305908203,
+            "end_logit": -2.633481502532959
         },
         {
-            "text": "artificial",
-            "probability": 0.023602756646967798,
-            "start_logit": 0.41490474343299866,
-            "end_logit": -2.335442066192627
+            "text": "are streamed live over the internet",
+            "probability": 0.008276585588698582,
+            "start_logit": -1.5265121459960938,
+            "end_logit": 0.9446985125541687
         },
         {
-            "text": "mathematics and algorithms called threshold logic",
-            "probability": 0.023529966282738932,
-            "start_logit": -2.0972487926483154,
-            "end_logit": 0.173622727394104
+            "text": "Dota 2 matches are streamed live over the internet",
+            "probability": 0.00703160865533474,
+            "start_logit": -1.689527153968811,
+            "end_logit": 0.9446985125541687
         }
     ],
     "2": [
         {
-            "text": "to solve problems in the same way that a human brain would",
-            "probability": 0.3022913971111705,
-            "start_logit": 2.6436045169830322,
-            "end_logit": 2.386509418487549
+            "text": "Components of an artificial neural network",
+            "probability": 0.6843486800849083,
+            "start_logit": 4.010228633880615,
+            "end_logit": 3.6376585960388184
         },
         {
-            "text": "solve problems in the same way that a human brain would",
-            "probability": 0.22409098419527199,
-            "start_logit": 2.3442652225494385,
-            "end_logit": 2.386509418487549
-        },
-        {
-            "text": "to solve problems in the same way that a human brain",
-            "probability": 0.13418377668048756,
-            "start_logit": 2.6436045169830322,
-            "end_logit": 1.5743283033370972
-        },
-        {
-            "text": "solve problems in the same way that a human brain",
-            "probability": 0.09947148634306238,
-            "start_logit": 2.3442652225494385,
-            "end_logit": 1.5743283033370972
-        },
-        {
-            "text": "to solve problems in the same way that a human brain would.",
-            "probability": 0.0637352449344923,
-            "start_logit": 2.6436045169830322,
-            "end_logit": 0.8298556804656982
-        },
-        {
-            "text": "solve problems in the same way that a human brain would.",
-            "probability": 0.04724743708152761,
-            "start_logit": 2.3442652225494385,
-            "end_logit": 0.8298556804656982
-        },
-        {
-            "text": "to solve problems",
-            "probability": 0.026066328883583897,
-            "start_logit": 2.6436045169830322,
-            "end_logit": -0.06423762440681458
-        },
-        {
-            "text": "solve problems",
-            "probability": 0.019323174095264756,
-            "start_logit": 2.3442652225494385,
-            "end_logit": -0.06423762440681458
-        },
-        {
-            "text": "neural network approach was to solve problems in the same way that a human brain would",
-            "probability": 0.011783374307042772,
-            "start_logit": -0.6010973453521729,
-            "end_logit": 2.386509418487549
-        },
-        {
-            "text": "artificial neural network (ANN) with multiple layers between the input and output layers",
-            "probability": 0.011250176363528878,
-            "start_logit": 0.4137457609176636,
-            "end_logit": 1.3253605365753174
-        },
-        {
-            "text": "a human brain would",
-            "probability": 0.008904842727013586,
-            "start_logit": -0.8811916708946228,
-            "end_logit": 2.386509418487549
-        },
-        {
-            "text": "The original goal of the neural network approach was to solve problems in the same way that a human brain would",
-            "probability": 0.007995953629886816,
-            "start_logit": -0.9888513088226318,
-            "end_logit": 2.386509418487549
-        },
-        {
-            "text": "an artificial neural network (ANN) with multiple layers between the input and output layers",
-            "probability": 0.007718773247733515,
-            "start_logit": 0.037017401307821274,
-            "end_logit": 1.3253605365753174
-        },
-        {
-            "text": "in the same way that a human brain would",
-            "probability": 0.007143203638355548,
-            "start_logit": -1.1016255617141724,
-            "end_logit": 2.386509418487549
-        },
-        {
-            "text": "original goal of the neural network approach was to solve problems in the same way that a human brain would",
-            "probability": 0.00700644295419064,
-            "start_logit": -1.1209567785263062,
-            "end_logit": 2.386509418487549
-        },
-        {
-            "text": "the same way that a human brain would",
-            "probability": 0.005377212659852003,
-            "start_logit": -1.3856167793273926,
-            "end_logit": 2.386509418487549
-        },
-        {
-            "text": "neural network approach was to solve problems in the same way that a human brain",
-            "probability": 0.005230508316375752,
-            "start_logit": -0.6010973453521729,
-            "end_logit": 1.5743283033370972
-        },
-        {
-            "text": "a human brain",
-            "probability": 0.003952760281223037,
-            "start_logit": -0.8811916708946228,
-            "end_logit": 1.5743283033370972
+            "text": "Components of an artificial neural network 2.2 Neural networks as functions",
+            "probability": 0.06397267922331623,
+            "start_logit": 4.010228633880615,
+            "end_logit": 1.26764714717865
         },
         {
             "text": "artificial neural network",
-            "probability": 0.0036776079929440237,
-            "start_logit": 0.4137457609176636,
-            "end_logit": 0.2072392702102661
+            "probability": 0.05690042544377539,
+            "start_logit": 1.5230638980865479,
+            "end_logit": 3.6376585960388184
         },
         {
-            "text": "The original goal of the neural network approach was to solve problems in the same way that a human brain",
-            "probability": 0.003549314556992462,
-            "start_logit": -0.9888513088226318,
-            "end_logit": 1.5743283033370972
+            "text": "Convolutional networks 2 Models 2.1 Components of an artificial neural network",
+            "probability": 0.044109633837888344,
+            "start_logit": 1.2684392929077148,
+            "end_logit": 3.6376585960388184
+        },
+        {
+            "text": "Components of an artificial neural network 2.2 Neural networks as functions 2.3 Learning",
+            "probability": 0.026327136614453538,
+            "start_logit": 4.010228633880615,
+            "end_logit": 0.379791259765625
+        },
+        {
+            "text": "Components of an artificial neural network 2.2 Neural networks",
+            "probability": 0.024746869004109124,
+            "start_logit": 4.010228633880615,
+            "end_logit": 0.3178900182247162
+        },
+        {
+            "text": "an artificial neural network",
+            "probability": 0.01391831288386141,
+            "start_logit": 0.11496652662754059,
+            "end_logit": 3.6376585960388184
+        },
+        {
+            "text": "Convolutional networks",
+            "probability": 0.01293953835680656,
+            "start_logit": 1.2684392929077148,
+            "end_logit": 2.4112679958343506
+        },
+        {
+            "text": "Models 2.1 Components of an artificial neural network",
+            "probability": 0.012374579447298787,
+            "start_logit": -0.002594596240669489,
+            "end_logit": 3.6376585960388184
+        },
+        {
+            "text": "Neural networks as functions",
+            "probability": 0.011073631955082574,
+            "start_logit": 2.2563393115997314,
+            "end_logit": 1.26764714717865
+        },
+        {
+            "text": "Components of an artificial neural network 2.2 Neural networks as functions 2.3 Learning 2.4 Learning paradigms",
+            "probability": 0.00964970935930083,
+            "start_logit": 4.010228633880615,
+            "end_logit": -0.6238811612129211
+        },
+        {
+            "text": "2.1 Components of an artificial neural network",
+            "probability": 0.006544647786696853,
+            "start_logit": -0.6395913362503052,
+            "end_logit": 3.6376585960388184
+        },
+        {
+            "text": "artificial neural network 2.2 Neural networks as functions",
+            "probability": 0.005319032198810164,
+            "start_logit": 1.5230638980865479,
+            "end_logit": 1.26764714717865
+        },
+        {
+            "text": "Convolutional networks 2 Models",
+            "probability": 0.004931727412882718,
+            "start_logit": 1.2684392929077148,
+            "end_logit": 1.4466696977615356
+        },
+        {
+            "text": "Neural networks as functions 2.3 Learning",
+            "probability": 0.004557211372716436,
+            "start_logit": 2.2563393115997314,
+            "end_logit": 0.379791259765625
+        },
+        {
+            "text": "Neural networks",
+            "probability": 0.00428366800826854,
+            "start_logit": 2.2563393115997314,
+            "end_logit": 0.3178900182247162
+        },
+        {
+            "text": "Convolutional networks 2 Models 2.1 Components of an artificial neural network 2.2 Neural networks as functions",
+            "probability": 0.0041233533990582966,
+            "start_logit": 1.2684392929077148,
+            "end_logit": 1.26764714717865
+        },
+        {
+            "text": "Components of an artificial neural network 2.2",
+            "probability": 0.003931993244592218,
+            "start_logit": 4.010228633880615,
+            "end_logit": -1.5216624736785889
+        },
+        {
+            "text": "2 Models 2.1 Components of an artificial neural network",
+            "probability": 0.003758190804040225,
+            "start_logit": -1.1943012475967407,
+            "end_logit": 3.6376585960388184
+        },
+        {
+            "text": "artificial neural network 2.2 Neural networks as functions 2.3 Learning",
+            "probability": 0.0021889795621333557,
+            "start_logit": 1.5230638980865479,
+            "end_logit": 0.379791259765625
         }
     ]
 }
