@@ -1,0 +1,62 @@
+Contents
+1	History
+1.1	Hebbian learning
+1.2	Backpropagation
+1.3	Hardware-based designs
+1.4	Contests
+1.5	Convolutional networks
+2	Models
+2.1	Components of an artificial neural network
+2.2	Neural networks as functions
+2.3	Learning
+2.4	Learning paradigms
+2.5	Learning algorithms
+3	Variants
+3.1	Group method of data handling
+3.2	Convolutional neural networks
+3.3	Long short-term memory
+3.4	Deep reservoir computing
+3.5	Deep belief networks
+3.6	Large memory storage and retrieval neural networks
+3.7	Stacked (de-noising) auto-encoders
+3.8	Deep stacking networks
+3.9	Tensor deep stacking networks
+3.10	Spike-and-slab RBMs
+3.11	Compound hierarchical-deep models
+3.12	Deep predictive coding networks
+3.13	Networks with separate memory structures
+3.14	Multilayer kernel machine
+4	Neural architecture search
+5	Use
+6	Applications
+6.1	Types of models
+7	Theoretical properties
+7.1	Computational power
+7.2	Capacity
+7.3	Convergence
+7.4	Generalization and statistics
+8	Criticism
+8.1	Training issues
+8.2	Theoretical issues
+8.3	Hardware issues
+8.4	Practical counterexamples to criticisms
+8.5	Hybrid approaches
+9	Types
+10	Gallery
+11	See also
+12	References
+13	Bibliography
+14	External links
+History
+Warren McCulloch and Walter Pitts[3] (1943) created a computational model for neural networks based on mathematics and algorithms called threshold logic. This model paved the way for neural network research to split into two approaches. One approach focused on biological processes in the brain while the other focused on the application of neural networks to artificial intelligence. This work led to work on nerve networks and their link to finite automata. [4]
+
+Hebbian learning
+In the late 1940s, D. O. Hebb[5] created a learning hypothesis based on the mechanism of neural plasticity that became known as Hebbian learning. Hebbian learning is unsupervised learning. This evolved into models for long term potentiation. Researchers started applying these ideas to computational models in 1948 with Turing's B-type machines. Farley and Clark[6] (1954) first used computational machines, then called "calculators", to simulate a Hebbian network. Other neural network computational machines were created by Rochester, Holland, Habit and Duda (1956). [7]
+
+Rosenblatt[8] (1958) created the perceptron, an algorithm for pattern recognition. With mathematical notation, Rosenblatt described circuitry not in the basic perceptron, such as the exclusive-or circuit that could not be processed by neural networks at the time. [9]
+
+In 1959, a biological model proposed by Nobel laureates Hubel and Wiesel was based on their discovery of two types of cells in the primary visual cortex: simple cells and complex cells. [10]
+
+The first functional networks with many layers were published by Ivakhnenko and Lapa in 1965, becoming the Group Method of Data Handling. [11][12][13]
+
+Neural network research stagnated after machine learning research by Minsky and Papert (1969),[14] who discovered two key issues with the computational machines that processed neural networks. The first was that basic perceptrons were incapable of processing the exclusive-or circuit. The second was that computers didn't have enough processing power to effectively handle the work required by large neural networks. Neural network research slowed until computers achieved far greater processing power. 

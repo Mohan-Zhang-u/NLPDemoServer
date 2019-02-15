@@ -160,6 +160,7 @@ function PostSimilarityTextFunction(Url, InputText1AreaId, InputText2AreaId, Res
         crossDomain: true,
         success: function (response) {
             console.log("success");
+            console.log(response);
             $(InputText1AreaId).val(InputText1);
             $(InputText2AreaId).val(InputText2);
             $(ResponseTextAreaId).val(response);
