@@ -98,48 +98,6 @@ function PostInputTextFunction(Url, InputTextAreaId, ResponseTextAreaId, ButtonI
     return myresponse;
 }
 
-//
-// function PostBioBERTQATextFunction(Url, InputText1AreaId, InputText2AreaId, ResponseTextAreaId, ButtonId, myi, CreateChart = false, labels = ['False', 'True'], ChartDefaultInput = '0.0', chartid = "piechart") {
-//     var myresponse = 'notknown';
-//     var InputText1 = $(InputTextAreaId1).val();
-//     var InputText2 = $(InputText2AreaId2).val();
-//     var PostJson = {
-//         "InputText1": InputText1,
-//         "InputText2": InputText2
-//     };
-//     var jfPostJson = JSON.stringify(PostJson);
-//     $.ajax({
-//         url: Url,
-//         type: "POST",
-//         contentType: "application/json;charset=utf-8",
-//         data: jfPostJson,
-//         dataType: 'text',
-//         cache: false,
-//         crossDomain: true,
-//         success: function (response) {
-//             console.log("success");
-//             $(InputTextAreaId1).val(InputText1);
-//             $(InputTextAreaId2).val(InputText2);
-//             $(ResponseTextAreaId).val(response);
-//             myresponse = response;
-//             if (CreateChart === true) {
-//                 ClickToDrawChart(labels, [response], chartid);
-//             }
-//         },
-//         complete: function (jqXHR, textStatus) {
-//             console.log("complete");
-//         }
-//     }).done(function (response) {
-//         console.log("done");
-//         ButtonToggleFunction(ButtonId, myi);
-//         document.getElementById(ButtonId).disabled = false;
-//
-//     }).fail(function (jqXHR, textStatus) {
-//         alert("fail");
-//     });
-//     return myresponse;
-// }
-
 
 function PostSimilarityTextFunction(Url, InputText1AreaId, InputText2AreaId, ResponseTextAreaId, ButtonId, myi, CreateChart = false, labels = ['False', 'True'], ChartDefaultInput = '0.0', chartid = "piechart") {
     var myresponse = 'notknown';

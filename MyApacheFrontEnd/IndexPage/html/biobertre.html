@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/biobertre.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="src/common.js"></script>
+    <script type="text/javascript" src="src/biobertre.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+
+<!--<h1 class="red_alert">UNDER CONSTRUCTION RIGHT NOW!!!</h1>-->
+<h1>BioBERT's Relation Extraction Demo</h1>
+
+Sentence to be analyzed:
+<br>
+<textarea id="InputText"
+          placeholder="A single English sentence should be input here."></textarea>
+<br>
+<br>
+Probability that the above sentence is positive:
+<br>
+<textarea id="ReturnText"
+          placeholder="Predicted correlation relationship will be here."></textarea>
+
+
+
+<button id="myButton" class="buttonload" onclick="this.disabled=true;">
+    <i class="fa" id = "myi"></i>Analyze Sentiment
+</button>
+
+<div id="piechart"></div>
+
+
+<p class="red_alert">The input should be a single sentence.</p>
+<p>Chrome is the recommended and only tested browser.</p>
+<p>Text to summarize has to be encoded in UTF-8.</p>
+<p>Please be aware: This Demo approved for use with public data only.</p>
+<p>All rights reserved.</p>
+
+</body>
+</html>
