@@ -1,368 +1,246 @@
 {
     "0": [
         {
-            "text": "multiplayer online battle arena",
-            "probability": 0.36820537510253176,
-            "start_logit": 8.013239860534668,
-            "end_logit": 6.965151786804199
+            "text": "Andrew Wood",
+            "probability": 0.973865666992944,
+            "start_logit": 5.864976406097412,
+            "end_logit": 6.244134902954102
         },
         {
-            "text": "multiplayer online battle arena (MOBA)",
-            "probability": 0.2787058708445215,
-            "start_logit": 8.013239860534668,
-            "end_logit": 6.6866679191589355
+            "text": "Wood",
+            "probability": 0.02086640402119732,
+            "start_logit": 2.021843433380127,
+            "end_logit": 6.244134902954102
         },
         {
-            "text": "a multiplayer online battle arena",
-            "probability": 0.12164789643563763,
-            "start_logit": 6.9057297706604,
-            "end_logit": 6.965151786804199
+            "text": "Frontman Andrew Wood",
+            "probability": 0.00287005923051896,
+            "start_logit": 0.03803569823503494,
+            "end_logit": 6.244134902954102
         },
         {
-            "text": "a multiplayer online battle arena (MOBA)",
-            "probability": 0.09207900048460053,
-            "start_logit": 6.9057297706604,
-            "end_logit": 6.6866679191589355
+            "text": "Andrew",
+            "probability": 0.0017617687347952693,
+            "start_logit": 5.864976406097412,
+            "end_logit": -0.07082020491361618
         },
         {
-            "text": "multiplayer online battle arena (MOBA) video game",
-            "probability": 0.044151535362601836,
-            "start_logit": 8.013239860534668,
-            "end_logit": 4.8441386222839355
+            "text": "Mother Love Bone was an American rock band that formed in Seattle, Washington in 1987. The band was active from 1987 to 1990. Frontman Andrew Wood",
+            "probability": 0.0005715544267854348,
+            "start_logit": -1.5756925344467163,
+            "end_logit": 6.244134902954102
         },
         {
-            "text": "a multiplayer online battle arena (MOBA) video game",
-            "probability": 0.014586808787809167,
-            "start_logit": 6.9057297706604,
-            "end_logit": 4.8441386222839355
+            "text": "Andrew Wood\u2019s personality and compositions helped to catapult the group to the top of the burgeoning late 1980s/early 1990s",
+            "probability": 2.017643180090659e-05,
+            "start_logit": 5.864976406097412,
+            "end_logit": -4.540378570556641
         },
         {
-            "text": "online battle arena",
-            "probability": 0.012171647524164187,
-            "start_logit": 4.603708267211914,
-            "end_logit": 6.965151786804199
+            "text": "Andrew Wood\u2019s",
+            "probability": 1.5066573994567484e-05,
+            "start_logit": 5.864976406097412,
+            "end_logit": -4.8324151039123535
         },
         {
-            "text": "multiplayer online battle arena (MOBA",
-            "probability": 0.011886083557649592,
-            "start_logit": 8.013239860534668,
-            "end_logit": 3.531879186630249
+            "text": "The band was active from 1987 to 1990. Frontman Andrew Wood",
+            "probability": 7.454246179026795e-06,
+            "start_logit": -5.915268421173096,
+            "end_logit": 6.244134902954102
         },
         {
-            "text": "battle arena",
-            "probability": 0.01112737818717054,
-            "start_logit": 4.514007568359375,
-            "end_logit": 6.965151786804199
+            "text": "Andrew Wood\u2019",
+            "probability": 7.218005889136742e-06,
+            "start_logit": 5.864976406097412,
+            "end_logit": -5.568315029144287
         },
         {
-            "text": "online battle arena (MOBA)",
-            "probability": 0.009213090987305952,
-            "start_logit": 4.603708267211914,
-            "end_logit": 6.6866679191589355
+            "text": "1987 to 1990. Frontman Andrew Wood",
+            "probability": 6.421976663354431e-06,
+            "start_logit": -6.064326286315918,
+            "end_logit": 6.244134902954102
         },
         {
-            "text": "battle arena (MOBA)",
-            "probability": 0.008422651698140226,
-            "start_logit": 4.514007568359375,
-            "end_logit": 6.6866679191589355
+            "text": "Frontman Andrew",
+            "probability": 5.192071956855941e-06,
+            "start_logit": 0.03803569823503494,
+            "end_logit": -0.07082020491361618
         },
         {
-            "text": "multiplayer online battle arena (MOBA) video game developed and published by Valve Corporation. The game is a sequel to Defense of the Ancients",
-            "probability": 0.006243672088647423,
-            "start_logit": 8.013239860534668,
-            "end_logit": 2.8880794048309326
+            "text": "Mother Love Bone was an American rock band that formed in Seattle, Washington in 1987. The band was active from 1987 to 1990. Frontman Andrew",
+            "probability": 1.0339688043974409e-06,
+            "start_logit": -1.5756925344467163,
+            "end_logit": -0.07082020491361618
         },
         {
-            "text": "MOBA)",
-            "probability": 0.005235884052124491,
-            "start_logit": 4.038618564605713,
-            "end_logit": 6.6866679191589355
+            "text": "Frontman",
+            "probability": 4.5258438915041646e-07,
+            "start_logit": 0.03803569823503494,
+            "end_logit": -2.5107340812683105
         },
         {
-            "text": "a multiplayer online battle arena (MOBA",
-            "probability": 0.003926930890793372,
-            "start_logit": 6.9057297706604,
-            "end_logit": 3.531879186630249
+            "text": "Wood\u2019s personality and compositions helped to catapult the group to the top of the burgeoning late 1980s/early 1990s",
+            "probability": 4.3230764974375166e-07,
+            "start_logit": 2.021843433380127,
+            "end_logit": -4.540378570556641
         },
         {
-            "text": "multiplayer online battle arena (MOBA) video game developed and published by Valve Corporation.",
-            "probability": 0.0037994969447715525,
-            "start_logit": 8.013239860534668,
-            "end_logit": 2.3913795948028564
+            "text": "Mother Love Bone",
+            "probability": 3.874095740796355e-07,
+            "start_logit": -1.5756925344467163,
+            "end_logit": -1.0524976253509521
         },
         {
-            "text": "Dota 2 is a multiplayer online battle arena",
-            "probability": 0.0021287701733364106,
-            "start_logit": 2.8601434230804443,
-            "end_logit": 6.965151786804199
+            "text": "Wood\u2019s",
+            "probability": 3.228219567044125e-07,
+            "start_logit": 2.021843433380127,
+            "end_logit": -4.8324151039123535
         },
         {
-            "text": "a multiplayer online battle arena (MOBA) video game developed and published by Valve Corporation. The game is a sequel to Defense of the Ancients",
-            "probability": 0.0020627878542141373,
-            "start_logit": 6.9057297706604,
-            "end_logit": 2.8880794048309326
+            "text": "Wood\u2019",
+            "probability": 1.5465564935168837e-07,
+            "start_logit": 2.021843433380127,
+            "end_logit": -5.568315029144287
         },
         {
-            "text": "Dota 2 is a multiplayer online battle arena (MOBA)",
-            "probability": 0.001611331026393503,
-            "start_logit": 2.8601434230804443,
-            "end_logit": 6.6866679191589355
+            "text": "Mother Love Bone was an American rock band that formed in Seattle, Washington in 1987. The band was active from 1987 to 1990. Frontman",
+            "probability": 9.012936331147733e-08,
+            "start_logit": -1.5756925344467163,
+            "end_logit": -2.5107340812683105
         },
         {
-            "text": "online battle arena (MOBA) video game",
-            "probability": 0.0014595032077807518,
-            "start_logit": 4.603708267211914,
-            "end_logit": 4.8441386222839355
+            "text": "Wood died only days be- fore the scheduled release of the band\u2019s debut album, \u201cApple\u201d",
+            "probability": 8.394834612389514e-08,
+            "start_logit": -1.4005076885223389,
+            "end_logit": -2.7569632530212402
         },
         {
-            "text": "battle arena (MOBA) video game",
-            "probability": 0.0013342847898054119,
-            "start_logit": 4.514007568359375,
-            "end_logit": 4.8441386222839355
+            "text": "Frontman Andrew Wood\u2019s personality and compositions helped to catapult the group to the top of the burgeoning late 1980s/early 1990s",
+            "probability": 5.946154207071744e-08,
+            "start_logit": 0.03803569823503494,
+            "end_logit": -4.540378570556641
         }
     ],
     "1": [
         {
-            "text": "professional Dota 2 matches are streamed live over the internet",
-            "probability": 0.3488963779297782,
-            "start_logit": 2.214832305908203,
-            "end_logit": 0.9446985125541687
+            "text": "Andrew Wood",
+            "probability": 0.9952563404496494,
+            "start_logit": 7.518094062805176,
+            "end_logit": 8.370748519897461
         },
         {
-            "text": "Broadcasts of professional Dota 2 matches are streamed live over the internet",
-            "probability": 0.1554503725144099,
-            "start_logit": 1.4063838720321655,
-            "end_logit": 0.9446985125541687
+            "text": "lead singer Andrew Wood",
+            "probability": 0.002213258265514794,
+            "start_logit": 1.4095594882965088,
+            "end_logit": 8.370748519897461
         },
         {
-            "text": "professional Dota 2 matches are streamed live over the internet, and sometimes simulcast on television networks",
-            "probability": 0.07156763958077864,
-            "start_logit": 2.214832305908203,
-            "end_logit": -0.6394334435462952
+            "text": "Wood",
+            "probability": 0.00176823337823744,
+            "start_logit": 1.1850746870040894,
+            "end_logit": 8.370748519897461
         },
         {
-            "text": "professional Dota 2 matches",
-            "probability": 0.06835266940568775,
-            "start_logit": 2.214832305908203,
-            "end_logit": -0.6853958368301392
+            "text": "Andrew Wood (later of Mother Love Bone)",
+            "probability": 0.00019719213756224947,
+            "start_logit": 7.518094062805176,
+            "end_logit": -0.15582852065563202
         },
         {
-            "text": "streamed live over the internet",
-            "probability": 0.061151320067905135,
-            "start_logit": 0.4734087884426117,
-            "end_logit": 0.9446985125541687
+            "text": "Malfunkshun. It was released after the band had broken up and after lead singer Andrew Wood",
+            "probability": 0.00018528714970382655,
+            "start_logit": -1.0707547664642334,
+            "end_logit": 8.370748519897461
         },
         {
-            "text": "professional Dota 2 matches are streamed live",
-            "probability": 0.03507131681729114,
-            "start_logit": 2.214832305908203,
-            "end_logit": -1.3526928424835205
+            "text": "Andrew Wood (later of Mother Love Bone",
+            "probability": 8.581127477889127e-05,
+            "start_logit": 7.518094062805176,
+            "end_logit": -0.9878566861152649
         },
         {
-            "text": "live over the internet",
-            "probability": 0.03397701805791536,
-            "start_logit": -0.1142583042383194,
-            "end_logit": 0.9446985125541687
+            "text": "Andrew",
+            "probability": 6.378392807330679e-05,
+            "start_logit": 7.518094062805176,
+            "end_logit": -1.284505844116211
         },
         {
-            "text": "Broadcasts of professional Dota 2 matches are streamed live over the internet, and sometimes simulcast on television networks",
-            "probability": 0.031886877986014014,
-            "start_logit": 1.4063838720321655,
-            "end_logit": -0.6394334435462952
+            "text": "Andrew Wood (later of Mother Love Bone) had died of a drug overdose in 1990. Stone Gossard, of Pearl Jam",
+            "probability": 5.9920769547880615e-05,
+            "start_logit": 7.518094062805176,
+            "end_logit": -1.3469839096069336
         },
         {
-            "text": "professional Dota 2 matches are streamed live over the internet,",
-            "probability": 0.030675396476669527,
-            "start_logit": 2.214832305908203,
-            "end_logit": -1.486615538597107
+            "text": "Andrew Wood (",
+            "probability": 3.485752556493889e-05,
+            "start_logit": 7.518094062805176,
+            "end_logit": -1.8887380361557007
         },
         {
-            "text": "Broadcasts of professional Dota 2 matches",
-            "probability": 0.03045445179028782,
-            "start_logit": 1.4063838720321655,
-            "end_logit": -0.6853958368301392
+            "text": "singer Andrew Wood",
+            "probability": 3.4675346979133105e-05,
+            "start_logit": -2.7466325759887695,
+            "end_logit": 8.370748519897461
         },
         {
-            "text": "professional Dota 2",
-            "probability": 0.028470068430454305,
-            "start_logit": 2.214832305908203,
-            "end_logit": -1.5612231492996216
+            "text": "Andrew Wood (later of Mother Love Bone) had died of a drug overdose in 1990. Stone Gossard",
+            "probability": 3.078743033757421e-05,
+            "start_logit": 7.518094062805176,
+            "end_logit": -2.0129005908966064
         },
         {
-            "text": "Broadcasts of professional Dota 2 matches are streamed live",
-            "probability": 0.01562598412791801,
-            "start_logit": 1.4063838720321655,
-            "end_logit": -1.3526928424835205
+            "text": "Andrew Wood (later",
+            "probability": 2.6502661581973932e-05,
+            "start_logit": 7.518094062805176,
+            "end_logit": -2.162761926651001
         },
         {
-            "text": "matches are streamed live over the internet",
-            "probability": 0.013789045060225163,
-            "start_logit": -1.0160682201385498,
-            "end_logit": 0.9446985125541687
+            "text": "Andrew Wood (later of Mother Love Bone) had died of a drug overdose in 1990",
+            "probability": 1.6264334513493388e-05,
+            "start_logit": 7.518094062805176,
+            "end_logit": -2.6510324478149414
         },
         {
-            "text": "Broadcasts of professional Dota 2 matches are streamed live over the internet,",
-            "probability": 0.013667386969219968,
-            "start_logit": 1.4063838720321655,
-            "end_logit": -1.486615538597107
+            "text": "alterna- tive rock band Malfunkshun. It was released after the band had broken up and after lead singer Andrew Wood",
+            "probability": 6.6327002656633094e-06,
+            "start_logit": -4.400649547576904,
+            "end_logit": 8.370748519897461
         },
         {
-            "text": "Broadcasts of professional Dota 2",
-            "probability": 0.012684805641391938,
-            "start_logit": 1.4063838720321655,
-            "end_logit": -1.5612231492996216
+            "text": "Andrew Wood (later of Mother Love Bone) had died of a drug overdose in 1990.",
+            "probability": 6.131933163940932e-06,
+            "start_logit": 7.518094062805176,
+            "end_logit": -3.6264970302581787
         },
         {
-            "text": "streamed live over the internet, and sometimes simulcast on television networks",
-            "probability": 0.012543711862177925,
-            "start_logit": 0.4734087884426117,
-            "end_logit": -0.6394334435462952
+            "text": "It was released after the band had broken up and after lead singer Andrew Wood",
+            "probability": 4.126727178790658e-06,
+            "start_logit": -4.875176906585693,
+            "end_logit": 8.370748519897461
         },
         {
-            "text": "professional Dota 2 matches are streamed live over the internet, and sometimes simulcast on television networks,",
-            "probability": 0.010683916084913687,
-            "start_logit": 2.214832305908203,
-            "end_logit": -2.541337013244629
+            "text": "the band had broken up and after lead singer Andrew Wood",
+            "probability": 2.9627153097931925e-06,
+            "start_logit": -5.206555366516113,
+            "end_logit": 8.370748519897461
         },
         {
-            "text": "professional",
-            "probability": 0.009743446952928662,
-            "start_logit": 2.214832305908203,
-            "end_logit": -2.633481502532959
+            "text": "band had broken up and after lead singer Andrew Wood",
+            "probability": 2.8573992493301934e-06,
+            "start_logit": -5.2427496910095215,
+            "end_logit": 8.370748519897461
         },
         {
-            "text": "are streamed live over the internet",
-            "probability": 0.008276585588698582,
-            "start_logit": -1.5265121459960938,
-            "end_logit": 0.9446985125541687
+            "text": "Andrew Wood (later of Mother Love Bone) had died of a drug overdose",
+            "probability": 2.623006078723968e-06,
+            "start_logit": 7.518094062805176,
+            "end_logit": -4.475686073303223
         },
         {
-            "text": "Dota 2 matches are streamed live over the internet",
-            "probability": 0.00703160865533474,
-            "start_logit": -1.689527153968811,
-            "end_logit": 0.9446985125541687
-        }
-    ],
-    "2": [
-        {
-            "text": "Components of an artificial neural network",
-            "probability": 0.6843486800849083,
-            "start_logit": 4.010228633880615,
-            "end_logit": 3.6376585960388184
-        },
-        {
-            "text": "Components of an artificial neural network 2.2 Neural networks as functions",
-            "probability": 0.06397267922331623,
-            "start_logit": 4.010228633880615,
-            "end_logit": 1.26764714717865
-        },
-        {
-            "text": "artificial neural network",
-            "probability": 0.05690042544377539,
-            "start_logit": 1.5230638980865479,
-            "end_logit": 3.6376585960388184
-        },
-        {
-            "text": "Convolutional networks 2 Models 2.1 Components of an artificial neural network",
-            "probability": 0.044109633837888344,
-            "start_logit": 1.2684392929077148,
-            "end_logit": 3.6376585960388184
-        },
-        {
-            "text": "Components of an artificial neural network 2.2 Neural networks as functions 2.3 Learning",
-            "probability": 0.026327136614453538,
-            "start_logit": 4.010228633880615,
-            "end_logit": 0.379791259765625
-        },
-        {
-            "text": "Components of an artificial neural network 2.2 Neural networks",
-            "probability": 0.024746869004109124,
-            "start_logit": 4.010228633880615,
-            "end_logit": 0.3178900182247162
-        },
-        {
-            "text": "an artificial neural network",
-            "probability": 0.01391831288386141,
-            "start_logit": 0.11496652662754059,
-            "end_logit": 3.6376585960388184
-        },
-        {
-            "text": "Convolutional networks",
-            "probability": 0.01293953835680656,
-            "start_logit": 1.2684392929077148,
-            "end_logit": 2.4112679958343506
-        },
-        {
-            "text": "Models 2.1 Components of an artificial neural network",
-            "probability": 0.012374579447298787,
-            "start_logit": -0.002594596240669489,
-            "end_logit": 3.6376585960388184
-        },
-        {
-            "text": "Neural networks as functions",
-            "probability": 0.011073631955082574,
-            "start_logit": 2.2563393115997314,
-            "end_logit": 1.26764714717865
-        },
-        {
-            "text": "Components of an artificial neural network 2.2 Neural networks as functions 2.3 Learning 2.4 Learning paradigms",
-            "probability": 0.00964970935930083,
-            "start_logit": 4.010228633880615,
-            "end_logit": -0.6238811612129211
-        },
-        {
-            "text": "2.1 Components of an artificial neural network",
-            "probability": 0.006544647786696853,
-            "start_logit": -0.6395913362503052,
-            "end_logit": 3.6376585960388184
-        },
-        {
-            "text": "artificial neural network 2.2 Neural networks as functions",
-            "probability": 0.005319032198810164,
-            "start_logit": 1.5230638980865479,
-            "end_logit": 1.26764714717865
-        },
-        {
-            "text": "Convolutional networks 2 Models",
-            "probability": 0.004931727412882718,
-            "start_logit": 1.2684392929077148,
-            "end_logit": 1.4466696977615356
-        },
-        {
-            "text": "Neural networks as functions 2.3 Learning",
-            "probability": 0.004557211372716436,
-            "start_logit": 2.2563393115997314,
-            "end_logit": 0.379791259765625
-        },
-        {
-            "text": "Neural networks",
-            "probability": 0.00428366800826854,
-            "start_logit": 2.2563393115997314,
-            "end_logit": 0.3178900182247162
-        },
-        {
-            "text": "Convolutional networks 2 Models 2.1 Components of an artificial neural network 2.2 Neural networks as functions",
-            "probability": 0.0041233533990582966,
-            "start_logit": 1.2684392929077148,
-            "end_logit": 1.26764714717865
-        },
-        {
-            "text": "Components of an artificial neural network 2.2",
-            "probability": 0.003931993244592218,
-            "start_logit": 4.010228633880615,
-            "end_logit": -1.5216624736785889
-        },
-        {
-            "text": "2 Models 2.1 Components of an artificial neural network",
-            "probability": 0.003758190804040225,
-            "start_logit": -1.1943012475967407,
-            "end_logit": 3.6376585960388184
-        },
-        {
-            "text": "artificial neural network 2.2 Neural networks as functions 2.3 Learning",
-            "probability": 0.0021889795621333557,
-            "start_logit": 1.5230638980865479,
-            "end_logit": 0.379791259765625
+            "text": "Andrew Wood (later of Mother Love Bone) had died",
+            "probability": 1.750866709167479e-06,
+            "start_logit": 7.518094062805176,
+            "end_logit": -4.87989616394043
         }
     ]
 }
