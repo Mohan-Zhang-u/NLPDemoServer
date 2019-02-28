@@ -79,6 +79,8 @@ def PostInputTextTask():
     AnswerTheQuestion.main_func(file_text, True)
     with codecs.open("MyAnswers/predictions.json", 'r', encoding='utf-8') as fp:
         predictDict = json.load(fp)
+    if not predictDict:
+        return "Sorry, the model is not able to find an answer to the question in the uploaded corpus."
     if list(predictDict.values())[0] == "empty":
         return "Sorry, the model is not able to find an answer to the question in the uploaded corpus."
     else:
