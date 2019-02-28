@@ -1,246 +1,246 @@
 {
     "0": [
         {
-            "text": "Andrew Wood",
-            "probability": 0.973865666992944,
-            "start_logit": 5.864976406097412,
-            "end_logit": 6.244134902954102
+            "text": "multiplayer online battle arena",
+            "probability": 0.3600309127065993,
+            "start_logit": 8.024469375610352,
+            "end_logit": 6.983251571655273
         },
         {
-            "text": "Wood",
-            "probability": 0.02086640402119732,
-            "start_logit": 2.021843433380127,
-            "end_logit": 6.244134902954102
+            "text": "multiplayer online battle arena (MOBA)",
+            "probability": 0.28083231205974113,
+            "start_logit": 8.024469375610352,
+            "end_logit": 6.734819412231445
         },
         {
-            "text": "Frontman Andrew Wood",
-            "probability": 0.00287005923051896,
-            "start_logit": 0.03803569823503494,
-            "end_logit": 6.244134902954102
+            "text": "a multiplayer online battle arena",
+            "probability": 0.12243910550122336,
+            "start_logit": 6.945893287658691,
+            "end_logit": 6.983251571655273
         },
         {
-            "text": "Andrew",
-            "probability": 0.0017617687347952693,
-            "start_logit": 5.864976406097412,
-            "end_logit": -0.07082020491361618
+            "text": "a multiplayer online battle arena (MOBA)",
+            "probability": 0.09550529099276661,
+            "start_logit": 6.945893287658691,
+            "end_logit": 6.734819412231445
         },
         {
-            "text": "Mother Love Bone was an American rock band that formed in Seattle, Washington in 1987. The band was active from 1987 to 1990. Frontman Andrew Wood",
-            "probability": 0.0005715544267854348,
-            "start_logit": -1.5756925344467163,
-            "end_logit": 6.244134902954102
+            "text": "multiplayer online battle arena (MOBA) video game",
+            "probability": 0.04384407575748033,
+            "start_logit": 8.024469375610352,
+            "end_logit": 4.877701282501221
         },
         {
-            "text": "Andrew Wood\u2019s personality and compositions helped to catapult the group to the top of the burgeoning late 1980s/early 1990s",
-            "probability": 2.017643180090659e-05,
-            "start_logit": 5.864976406097412,
-            "end_logit": -4.540378570556641
+            "text": "a multiplayer online battle arena (MOBA) video game",
+            "probability": 0.01491046803986108,
+            "start_logit": 6.945893287658691,
+            "end_logit": 4.877701282501221
         },
         {
-            "text": "Andrew Wood\u2019s",
-            "probability": 1.5066573994567484e-05,
-            "start_logit": 5.864976406097412,
-            "end_logit": -4.8324151039123535
+            "text": "battle arena",
+            "probability": 0.012385792169278575,
+            "start_logit": 4.654829502105713,
+            "end_logit": 6.983251571655273
         },
         {
-            "text": "The band was active from 1987 to 1990. Frontman Andrew Wood",
-            "probability": 7.454246179026795e-06,
-            "start_logit": -5.915268421173096,
-            "end_logit": 6.244134902954102
+            "text": "online battle arena",
+            "probability": 0.012282796816503952,
+            "start_logit": 4.64647912979126,
+            "end_logit": 6.983251571655273
         },
         {
-            "text": "Andrew Wood\u2019",
-            "probability": 7.218005889136742e-06,
-            "start_logit": 5.864976406097412,
-            "end_logit": -5.568315029144287
+            "text": "multiplayer online battle arena (MOBA",
+            "probability": 0.011345211643900968,
+            "start_logit": 8.024469375610352,
+            "end_logit": 3.525857448577881
         },
         {
-            "text": "1987 to 1990. Frontman Andrew Wood",
-            "probability": 6.421976663354431e-06,
-            "start_logit": -6.064326286315918,
-            "end_logit": 6.244134902954102
+            "text": "battle arena (MOBA)",
+            "probability": 0.009661199993747593,
+            "start_logit": 4.654829502105713,
+            "end_logit": 6.734819412231445
         },
         {
-            "text": "Frontman Andrew",
-            "probability": 5.192071956855941e-06,
-            "start_logit": 0.03803569823503494,
-            "end_logit": -0.07082020491361618
+            "text": "online battle arena (MOBA)",
+            "probability": 0.009580861272737055,
+            "start_logit": 4.64647912979126,
+            "end_logit": 6.734819412231445
         },
         {
-            "text": "Mother Love Bone was an American rock band that formed in Seattle, Washington in 1987. The band was active from 1987 to 1990. Frontman Andrew",
-            "probability": 1.0339688043974409e-06,
-            "start_logit": -1.5756925344467163,
-            "end_logit": -0.07082020491361618
+            "text": "multiplayer online battle arena (MOBA) video game developed and published by Valve Corporation. The game is a sequel to Defense of the Ancients",
+            "probability": 0.00558746102834743,
+            "start_logit": 8.024469375610352,
+            "end_logit": 2.817586660385132
         },
         {
-            "text": "Frontman",
-            "probability": 4.5258438915041646e-07,
-            "start_logit": 0.03803569823503494,
-            "end_logit": -2.5107340812683105
+            "text": "MOBA)",
+            "probability": 0.005142683928878139,
+            "start_logit": 4.02428674697876,
+            "end_logit": 6.734819412231445
         },
         {
-            "text": "Wood\u2019s personality and compositions helped to catapult the group to the top of the burgeoning late 1980s/early 1990s",
-            "probability": 4.3230764974375166e-07,
-            "start_logit": 2.021843433380127,
-            "end_logit": -4.540378570556641
+            "text": "a multiplayer online battle arena (MOBA",
+            "probability": 0.0038582730437186604,
+            "start_logit": 6.945893287658691,
+            "end_logit": 3.525857448577881
         },
         {
-            "text": "Mother Love Bone",
-            "probability": 3.874095740796355e-07,
-            "start_logit": -1.5756925344467163,
-            "end_logit": -1.0524976253509521
+            "text": "multiplayer online battle arena (MOBA) video game developed and published by Valve Corporation.",
+            "probability": 0.003853516498409692,
+            "start_logit": 8.024469375610352,
+            "end_logit": 2.446047782897949
         },
         {
-            "text": "Wood\u2019s",
-            "probability": 3.228219567044125e-07,
-            "start_logit": 2.021843433380127,
-            "end_logit": -4.8324151039123535
+            "text": "Dota 2 is a multiplayer online battle arena",
+            "probability": 0.0021548885738361927,
+            "start_logit": 2.9060184955596924,
+            "end_logit": 6.983251571655273
         },
         {
-            "text": "Wood\u2019",
-            "probability": 1.5465564935168837e-07,
-            "start_logit": 2.021843433380127,
-            "end_logit": -5.568315029144287
+            "text": "a multiplayer online battle arena (MOBA) video game developed and published by Valve Corporation. The game is a sequel to Defense of the Ancients",
+            "probability": 0.0019001805294739209,
+            "start_logit": 6.945893287658691,
+            "end_logit": 2.817586660385132
         },
         {
-            "text": "Mother Love Bone was an American rock band that formed in Seattle, Washington in 1987. The band was active from 1987 to 1990. Frontman",
-            "probability": 9.012936331147733e-08,
-            "start_logit": -1.5756925344467163,
-            "end_logit": -2.5107340812683105
+            "text": "Dota 2 is a multiplayer online battle arena (MOBA)",
+            "probability": 0.001680862167840299,
+            "start_logit": 2.9060184955596924,
+            "end_logit": 6.734819412231445
         },
         {
-            "text": "Wood died only days be- fore the scheduled release of the band\u2019s debut album, \u201cApple\u201d",
-            "probability": 8.394834612389514e-08,
-            "start_logit": -1.4005076885223389,
-            "end_logit": -2.7569632530212402
+            "text": "battle arena (MOBA) video game",
+            "probability": 0.0015083249549429664,
+            "start_logit": 4.654829502105713,
+            "end_logit": 4.877701282501221
         },
         {
-            "text": "Frontman Andrew Wood\u2019s personality and compositions helped to catapult the group to the top of the burgeoning late 1980s/early 1990s",
-            "probability": 5.946154207071744e-08,
-            "start_logit": 0.03803569823503494,
-            "end_logit": -4.540378570556641
+            "text": "online battle arena (MOBA) video game",
+            "probability": 0.001495782320712558,
+            "start_logit": 4.64647912979126,
+            "end_logit": 4.877701282501221
         }
     ],
     "1": [
         {
-            "text": "Andrew Wood",
-            "probability": 0.9952563404496494,
-            "start_logit": 7.518094062805176,
-            "end_logit": 8.370748519897461
+            "text": "professional Dota 2 matches are streamed live over the internet",
+            "probability": 0.3706670403803869,
+            "start_logit": 2.444800853729248,
+            "end_logit": 1.0978549718856812
         },
         {
-            "text": "lead singer Andrew Wood",
-            "probability": 0.002213258265514794,
-            "start_logit": 1.4095594882965088,
-            "end_logit": 8.370748519897461
+            "text": "Broadcasts of professional Dota 2 matches are streamed live over the internet",
+            "probability": 0.14820750727364368,
+            "start_logit": 1.5281100273132324,
+            "end_logit": 1.0978549718856812
         },
         {
-            "text": "Wood",
-            "probability": 0.00176823337823744,
-            "start_logit": 1.1850746870040894,
-            "end_logit": 8.370748519897461
+            "text": "professional Dota 2 matches are streamed live over the internet, and sometimes simulcast on television networks",
+            "probability": 0.08662222954516999,
+            "start_logit": 2.444800853729248,
+            "end_logit": -0.35589274764060974
         },
         {
-            "text": "Andrew Wood (later of Mother Love Bone)",
-            "probability": 0.00019719213756224947,
-            "start_logit": 7.518094062805176,
-            "end_logit": -0.15582852065563202
+            "text": "professional Dota 2 matches",
+            "probability": 0.06166425391784018,
+            "start_logit": 2.444800853729248,
+            "end_logit": -0.6957448124885559
         },
         {
-            "text": "Malfunkshun. It was released after the band had broken up and after lead singer Andrew Wood",
-            "probability": 0.00018528714970382655,
-            "start_logit": -1.0707547664642334,
-            "end_logit": 8.370748519897461
+            "text": "streamed live over the internet",
+            "probability": 0.05788329880205683,
+            "start_logit": 0.5879255533218384,
+            "end_logit": 1.0978549718856812
         },
         {
-            "text": "Andrew Wood (later of Mother Love Bone",
-            "probability": 8.581127477889127e-05,
-            "start_logit": 7.518094062805176,
-            "end_logit": -0.9878566861152649
+            "text": "Broadcasts of professional Dota 2 matches are streamed live over the internet, and sometimes simulcast on television networks",
+            "probability": 0.03463503175842206,
+            "start_logit": 1.5281100273132324,
+            "end_logit": -0.35589274764060974
         },
         {
-            "text": "Andrew",
-            "probability": 6.378392807330679e-05,
-            "start_logit": 7.518094062805176,
-            "end_logit": -1.284505844116211
+            "text": "professional Dota 2 matches are streamed live",
+            "probability": 0.03173555448232027,
+            "start_logit": 2.444800853729248,
+            "end_logit": -1.3600115776062012
         },
         {
-            "text": "Andrew Wood (later of Mother Love Bone) had died of a drug overdose in 1990. Stone Gossard, of Pearl Jam",
-            "probability": 5.9920769547880615e-05,
-            "start_logit": 7.518094062805176,
-            "end_logit": -1.3469839096069336
+            "text": "professional Dota 2 matches are streamed live over the internet,",
+            "probability": 0.031662732635493455,
+            "start_logit": 2.444800853729248,
+            "end_logit": -1.3623088598251343
         },
         {
-            "text": "Andrew Wood (",
-            "probability": 3.485752556493889e-05,
-            "start_logit": 7.518094062805176,
-            "end_logit": -1.8887380361557007
+            "text": "live over the internet",
+            "probability": 0.027803987294307397,
+            "start_logit": -0.14532390236854553,
+            "end_logit": 1.0978549718856812
         },
         {
-            "text": "singer Andrew Wood",
-            "probability": 3.4675346979133105e-05,
-            "start_logit": -2.7466325759887695,
-            "end_logit": 8.370748519897461
+            "text": "professional Dota 2",
+            "probability": 0.027469374736292507,
+            "start_logit": 2.444800853729248,
+            "end_logit": -1.5043774843215942
         },
         {
-            "text": "Andrew Wood (later of Mother Love Bone) had died of a drug overdose in 1990. Stone Gossard",
-            "probability": 3.078743033757421e-05,
-            "start_logit": 7.518094062805176,
-            "end_logit": -2.0129005908966064
+            "text": "Broadcasts of professional Dota 2 matches",
+            "probability": 0.024655834928493648,
+            "start_logit": 1.5281100273132324,
+            "end_logit": -0.6957448124885559
         },
         {
-            "text": "Andrew Wood (later",
-            "probability": 2.6502661581973932e-05,
-            "start_logit": 7.518094062805176,
-            "end_logit": -2.162761926651001
+            "text": "streamed live over the internet, and sometimes simulcast on television networks",
+            "probability": 0.013526911889759524,
+            "start_logit": 0.5879255533218384,
+            "end_logit": -0.35589274764060974
         },
         {
-            "text": "Andrew Wood (later of Mother Love Bone) had died of a drug overdose in 1990",
-            "probability": 1.6264334513493388e-05,
-            "start_logit": 7.518094062805176,
-            "end_logit": -2.6510324478149414
+            "text": "matches are streamed live over the internet",
+            "probability": 0.013118692200715992,
+            "start_logit": -0.8964652419090271,
+            "end_logit": 1.0978549718856812
         },
         {
-            "text": "alterna- tive rock band Malfunkshun. It was released after the band had broken up and after lead singer Andrew Wood",
-            "probability": 6.6327002656633094e-06,
-            "start_logit": -4.400649547576904,
-            "end_logit": 8.370748519897461
+            "text": "Broadcasts of professional Dota 2 matches are streamed live",
+            "probability": 0.012689143919957959,
+            "start_logit": 1.5281100273132324,
+            "end_logit": -1.3600115776062012
         },
         {
-            "text": "Andrew Wood (later of Mother Love Bone) had died of a drug overdose in 1990.",
-            "probability": 6.131933163940932e-06,
-            "start_logit": 7.518094062805176,
-            "end_logit": -3.6264970302581787
+            "text": "Broadcasts of professional Dota 2 matches are streamed live over the internet,",
+            "probability": 0.01266002683314552,
+            "start_logit": 1.5281100273132324,
+            "end_logit": -1.3623088598251343
         },
         {
-            "text": "It was released after the band had broken up and after lead singer Andrew Wood",
-            "probability": 4.126727178790658e-06,
-            "start_logit": -4.875176906585693,
-            "end_logit": 8.370748519897461
+            "text": "professional Dota 2 matches are streamed live over the internet, and sometimes simulcast on television networks,",
+            "probability": 0.011968029655673618,
+            "start_logit": 2.444800853729248,
+            "end_logit": -2.3352103233337402
         },
         {
-            "text": "the band had broken up and after lead singer Andrew Wood",
-            "probability": 2.9627153097931925e-06,
-            "start_logit": -5.206555366516113,
-            "end_logit": 8.370748519897461
+            "text": "Broadcasts of professional Dota 2",
+            "probability": 0.010983354635075165,
+            "start_logit": 1.5281100273132324,
+            "end_logit": -1.5043774843215942
         },
         {
-            "text": "band had broken up and after lead singer Andrew Wood",
-            "probability": 2.8573992493301934e-06,
-            "start_logit": -5.2427496910095215,
-            "end_logit": 8.370748519897461
+            "text": "professional",
+            "probability": 0.007871906344328392,
+            "start_logit": 2.444800853729248,
+            "end_logit": -2.7541489601135254
         },
         {
-            "text": "Andrew Wood (later of Mother Love Bone) had died of a drug overdose",
-            "probability": 2.623006078723968e-06,
-            "start_logit": 7.518094062805176,
-            "end_logit": -4.475686073303223
+            "text": "are streamed live over the internet",
+            "probability": 0.007677496299005853,
+            "start_logit": -1.432209849357605,
+            "end_logit": 1.0978549718856812
         },
         {
-            "text": "Andrew Wood (later of Mother Love Bone) had died",
-            "probability": 1.750866709167479e-06,
-            "start_logit": 7.518094062805176,
-            "end_logit": -4.87989616394043
+            "text": "live over the internet, and sometimes simulcast on television networks",
+            "probability": 0.006497592467911055,
+            "start_logit": -0.14532390236854553,
+            "end_logit": -0.35589274764060974
         }
     ]
 }
