@@ -1,0 +1,124 @@
+{
+    "0": [
+        {
+            "text": ".",
+            "probability": 0.2786312661975562,
+            "start_logit": -6.1510090827941895,
+            "end_logit": -0.7039612531661987
+        },
+        {
+            "text": "pneumonia is a serious flu complication that can result from either influenza virus infection alone or from co-infection of flu virus and bacteria.",
+            "probability": 0.16811883378883205,
+            "start_logit": -6.654521942138672,
+            "end_logit": -0.7056666016578674
+        },
+        {
+            "text": "will develop complications (such as pneumonia) as a result of flu, some of which can be life-threatening and result in death.",
+            "probability": 0.1387223434317297,
+            "start_logit": -6.848423957824707,
+            "end_logit": -0.7039612531661987
+        },
+        {
+            "text": "pneumonia) as a result of flu, some of which can be life-threatening and result in death.",
+            "probability": 0.13503899982078696,
+            "start_logit": -6.875334739685059,
+            "end_logit": -0.7039612531661987
+        },
+        {
+            "text": "while pneumonia is a serious flu complication that can result from either influenza virus infection alone or from co-infection of flu virus and bacteria.",
+            "probability": 0.12877253795803772,
+            "start_logit": -6.921145439147949,
+            "end_logit": -0.7056666016578674
+        },
+        {
+            "text": "but some people will develop complications (such as pneumonia) as a result of flu, some of which can be life-threatening and result in death.",
+            "probability": 0.11680751437525812,
+            "start_logit": -7.020370960235596,
+            "end_logit": -0.7039612531661987
+        },
+        {
+            "text": "Flu virus infection of the respiratory tract",
+            "probability": 0.026744094546719874,
+            "start_logit": -5.255032062530518,
+            "end_logit": -3.943513870239258
+        },
+        {
+            "text": "Sinus and ear infections",
+            "probability": 0.001518238398481289,
+            "start_logit": -4.985008716583252,
+            "end_logit": -7.082300186157227
+        },
+        {
+            "text": "Sinus and ear",
+            "probability": 0.001510174786848526,
+            "start_logit": -4.985008716583252,
+            "end_logit": -7.087625503540039
+        },
+        {
+            "text": "Sinus and ear infections are examples of moderate complications from flu,",
+            "probability": 0.0010440716988787408,
+            "start_logit": -4.985008716583252,
+            "end_logit": -7.456722736358643
+        },
+        {
+            "text": ". Sinus and ear infections",
+            "probability": 0.0004730994533449578,
+            "start_logit": -6.1510090827941895,
+            "end_logit": -7.082300186157227
+        },
+        {
+            "text": ". Sinus and ear",
+            "probability": 0.00047058674502506394,
+            "start_logit": -6.1510090827941895,
+            "end_logit": -7.087625503540039
+        },
+        {
+            "text": "Most people who get flu will recover in a few days to less than two weeks,",
+            "probability": 0.00032805350026694877,
+            "start_logit": -6.6220479011535645,
+            "end_logit": -6.977390289306641
+        },
+        {
+            "text": ". Sinus and ear infections are examples of moderate complications from flu,",
+            "probability": 0.00032534399767953254,
+            "start_logit": -6.1510090827941895,
+            "end_logit": -7.456722736358643
+        },
+        {
+            "text": "Most people who get flu will recover in a few days to less than two weeks, but some people will develop complications (such as pneumonia)",
+            "probability": 0.00031458374537036537,
+            "start_logit": -6.6220479011535645,
+            "end_logit": -7.019316673278809
+        },
+        {
+            "text": "will develop complications (such as pneumonia)",
+            "probability": 0.0002508547948126552,
+            "start_logit": -6.848423957824707,
+            "end_logit": -7.019316673278809
+        },
+        {
+            "text": "pneumonia)",
+            "probability": 0.0002441941200944381,
+            "start_logit": -6.875334739685059,
+            "end_logit": -7.019316673278809
+        },
+        {
+            "text": "pneumonia) as a result of flu, some of which can be life-threatening and result in death. Sinus and ear infections",
+            "probability": 0.0002292882556481183,
+            "start_logit": -6.875334739685059,
+            "end_logit": -7.082300186157227
+        },
+        {
+            "text": "pneumonia) as a result of flu, some of which can be life-threatening and result in death. Sinus and ear",
+            "probability": 0.00022807046834452387,
+            "start_logit": -6.875334739685059,
+            "end_logit": -7.087625503540039
+        },
+        {
+            "text": "Most people who get flu will recover in a few days to less than two weeks, but some people will develop complications (such as pneumonia",
+            "probability": 0.0002278499162843364,
+            "start_logit": -6.6220479011535645,
+            "end_logit": -7.341879844665527
+        }
+    ]
+}
