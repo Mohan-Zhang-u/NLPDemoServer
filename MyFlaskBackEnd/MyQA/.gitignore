@@ -6,3 +6,8 @@ data/
 *.tar.gz
 *.npz
 corenlp
+MyAnswers/**
+MyCorpus/**
+MySegmented/**
+MyRetrievedData/**
+UploadFolder/**
