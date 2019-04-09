@@ -10,6 +10,7 @@ import os
 import json
 import csv
 import nltk.data
+import mzutils
 
 app = Flask(__name__)
 CORS(app)
@@ -29,8 +30,9 @@ def not_found(error):
 
 # now starts helper functions.
 def SelectFirstSentence(InputText):
-    tokenizer=nltk.data.load('tokenizers/punkt/english.pickle')
+    tokenizer = nltk.data.load('tokenizers/punkt/english.pickle')
     return tokenizer.tokenize(InputText)[0]
+
 
 def addSpacesBetweenSpecialCharacter(InputText):
     regular = "1234567890qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM "
@@ -120,6 +122,54 @@ def PostSentimentTextTask():
     #     result_class = "positive"
     #
     # # return result_prob+":"+str(isinstance(result_prob,str))+":"+str(isinstance(result_prob,int))
+
+
+@app.route('/PostSentiment2', methods=['POST'])
+def PostSentimentParagraphTask():
+    if not request.json:
+        abort(400)
+    itext = request.json['InputText']
+    itext = addSpacesBetweenSpecialCharacter(itext)
+    sentences = nltk.tokenize.sent_tokenize(itext, 'english')
+    sent_len = len(sentences)
+    executable = "./inferencesst.sh"
+    clean = "./clean.sh"
+    test_tsv = "../To_Be_Clean/SST/test.tsv"
+    result_tsv = "../To_Be_Clean/SST/output/test_results.tsv"
+
+    # read tsv
+    with codecs.open(test_tsv, "w", encoding="utf-8") as fp:
+        tsv_writer = csv.writer(fp, delimiter='\t')
+        tsv_writer.writerow(["index", "sentence"])
+        for sentence in sentences:
+            tsv_writer.writerow(["0", sentence])
+
+    # inference
+    p1 = subprocess.Popen([executable], shell=True, executable="/bin/bash")
+    p1.wait()
+
+    # get result
+    cached_list = []
+    sentiment_value = 0
+    with codecs.open(result_tsv, "r", encoding="utf-8") as fp:
+        tsv_reader = csv.reader(fp, delimiter='\t')
+        for row in tsv_reader:
+            cached_list.append(row[1])
+            if float(row[1]) > 0.5:
+                sentiment_value += 1
+    sentiment_value = sentiment_value / sent_len
+    re_dict = {}
+    re_dict["overall sentitment"] = sentiment_value
+    detail_dict = {}
+    for i in range(sent_len):
+        detail_dict[sentences[i]] = cached_list[i]
+    re_dict["sentences' individual sentiment"] = detail_dict
+
+    # clean
+    p2 = subprocess.Popen([clean], shell=True, executable="/bin/bash")
+    p2.wait()
+
+    return str(re_dict)
 
 
 @app.route('/PostSimilarity', methods=['POST'])
@@ -286,6 +336,7 @@ def PostQuestionSimilarityTask():
 def hello():
     import platform
     return "123"
+
 
 @app.route("/hello")
 def hello2():

@@ -16,7 +16,7 @@
 <body>
 
 <!--<h1 class="red_alert">UNDER CONSTRUCTION RIGHT NOW!!!</h1>-->
-<h1>Sentence Level Sentiment Analysis Demo</h1>
+<h1>Sentiment Analysis Demo</h1>
 
 Sentence to be analyzed:
 <br>
@@ -29,16 +29,35 @@ Probability that the above sentence is positive:
 <textarea id="ReturnText"
           placeholder="Predicted sentiment will be here."></textarea>
 
-
-
 <button id="myButton" class="buttonload" onclick="this.disabled=true;">
     <i class="fa" id = "myi"></i>Analyze Sentiment
 </button>
 
 <div id="piechart"></div>
 
+<br>
+<br>
+<br>
 
-<p class="red_alert">The input should be a single sentence.</p>
+Paragraph to be analyzed:
+<br>
+<textarea id="InputText2"
+          placeholder="A single English sentence should be input here."></textarea>
+<br>
+<br>
+Probability that the above paragraph is positive:
+<br>
+<textarea id="ReturnText2"
+          placeholder="Predicted sentiment will be here."></textarea>
+
+<button id="myButton2" class="buttonload" onclick="this.disabled=true;">
+    <i class="fa" id = "myi2"></i>Analyze Sentiment
+</button>
+
+
+
+
+<!--<p class="red_alert">The input should be a single sentence.</p>-->
 <p>Chrome is the recommended and only tested browser.</p>
 <p>Text to summarize has to be encoded in UTF-8.</p>
 <p>Please be aware: This Demo approved for use with public data only.</p>
